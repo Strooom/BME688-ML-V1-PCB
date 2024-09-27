@@ -1,0 +1,18 @@
+kibot:
+  version: 1
+
+preflight:
+  erc: true
+  drc: true
+  check_zone_fills: true
+
+outputs:
+  - name: 'Schematic PDF'
+    type: pdf_sch_print
+
+  - name: 'Interactive BOM'
+    type: ibom
+
+  - name: '3D model - .step'
+    type : step
+

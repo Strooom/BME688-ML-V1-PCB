@@ -1,0 +1,32 @@
+name: "KiCad DRC / ERC Check"
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, develop]
+
+jobs:
+  drcerc:
+    name: Run DRC and ERC, Export Schematic as PDF
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: run KiBOT export
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          additional_args: '--verbose'
+          config: config.kibot.yaml
+          dir: output
+          schema: 'BME688-ML-V1-PCB.kicad_sch'
+          board: 'BME688-ML-V1-PCB.kicad_pcb'
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: output
+          path: output
+

@@ -1,0 +1,189 @@
+(footprint "DebugConnector_1x06_P2.54mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x06 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -9.12 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d94fd095-7a6e-4e48-86fc-cdfac8e8598a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DebugConnector_1x06_P2.54mm"
+		(at 0 9.12 0)
+		(layer "F.Fab")
+		(uuid "1e2bba13-d127-4ce7-8b02-2883c591f992")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DebugConnector_1x06_P2.54mm"
+		(at 0 -11.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3725ac9f-ff98-44f0-9ac5-5b66e8d92ad2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2de027b0-b666-4c6a-b11c-dc82518ddb57")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d589b682-4d03-45b4-a840-25ed8a180faa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.25 -7.75)
+		(end 1.25 7.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "db2ac276-7aac-4741-8ab6-4b4a6959f598")
+	)
+	(fp_line
+		(start -1.27 -7.62)
+		(end 0.635 -7.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82a8df90-914c-45a8-a6ed-c3d82dec4c48")
+	)
+	(fp_line
+		(start -1.27 7.62)
+		(end -1.27 -7.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c7b98af-8f9a-419c-a091-5fa7bd6e0be4")
+	)
+	(fp_line
+		(start 0.635 -7.62)
+		(end 1.27 -6.985)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d2306df-a16e-4b85-a70a-63e9ca761920")
+	)
+	(fp_line
+		(start 1.27 -6.985)
+		(end 1.27 7.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3185ad25-198a-43eb-ad35-561533eb359a")
+	)
+	(fp_line
+		(start 1.27 7.62)
+		(end -1.27 7.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d35a48f2-bf39-477c-8a00-05b8354abbbc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.5 -6.35 90)
+		(layer "F.Fab")
+		(uuid "6c1c300e-2a47-4ea2-8d52-97571814b130")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -6.35)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a8e52ae-6ffa-4b14-871d-c743e160bdeb")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "a78d5ed1-9fc8-47c8-8861-16da26adfe15")
+	)
+	(pad "3" thru_hole oval
+		(at 0 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d781fb6-49d3-4061-bf95-7a23a7ac5ec1")
+	)
+	(pad "4" thru_hole oval
+		(at 0 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94dbc264-1b26-403f-bbbe-3770ea99faa2")
+	)
+	(pad "5" thru_hole oval
+		(at 0 3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa40f122-13da-414a-a560-db828fb1be8b")
+	)
+	(pad "6" thru_hole oval
+		(at 0 6.35)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0bf4302-52ce-45fd-8ac5-ce0a5b7f8539")
+	)
+)

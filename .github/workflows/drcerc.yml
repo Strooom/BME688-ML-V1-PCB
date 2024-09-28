@@ -9,6 +9,10 @@ jobs:
     name: Run DRC and ERC, Export Schematic as PDF
     runs-on: ubuntu-latest
 
+    env: 
+      CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+      CI_COMMIT_AUTHOR: Continuous Integration
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -18,15 +22,22 @@ jobs:
       - name: run KiBOT export
         uses: INTI-CMNB/KiBot@v2_k8
         with:
-          additional_args: '--verbose'
+          # additional_args: '--verbose'
           config: config.kibot.yaml
-          dir: output
+          dir: outputs
           schema: 'BME688-ML-V1-PCB.kicad_sch'
           board: 'BME688-ML-V1-PCB.kicad_pcb'
 
-      - name: Upload results
-        uses: actions/upload-artifact@v4
-        with:
-          name: output
-          path: output
+      - name: GIT Commit CI Artifacts
+        run: |
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.email "pascal.roobrouck@gmail.com"
+          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git push
+
+      # - name: Upload results
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: output
+      #     path: output
 

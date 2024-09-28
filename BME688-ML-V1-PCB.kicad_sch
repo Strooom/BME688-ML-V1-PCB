@@ -228,275 +228,7 @@
 				)
 			)
 		)
-		(symbol "1GlobalSymbolsLibrary:microSdCard"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CONN"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Value" "MSD-1-A"
-				(at 2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.be/datasheet/2/670/msd_1_a-3367597.pdf"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "micro-SD card slot"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "manufacturerName" "CUI Devices"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouserPartNumber" "179-MSD-1-A"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manufacturerPartNumber" "MSD-1-A"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "microSdCard_1_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "NC8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "CD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "1projectLibrary:BME680"
+		(symbol "1projectLibrary:BME688"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -510,7 +242,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "BME680"
+			(property "Value" "BME688"
 				(at 7.747 -9.144 0)
 				(effects
 					(font
@@ -672,7 +404,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BME680_0_1"
+			(symbol "BME688_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -685,7 +417,7 @@
 					)
 				)
 			)
-			(symbol "BME680_1_1"
+			(symbol "BME688_1_1"
 				(pin power_in line
 					(at -10.16 -5.08 0)
 					(length 2.54)
@@ -758,7 +490,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at 0 10.16 270)
 					(length 2.54)
 					(name "SDO"
@@ -1873,6 +1605,274 @@
 					(alternate "TIM15_CH2" bidirectional line)
 					(alternate "TIM2_CH4" bidirectional line)
 					(alternate "USART2_RX" bidirectional line)
+				)
+			)
+		)
+		(symbol "1projectLibrary:microSdCard"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CONN"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "MSD-1-A"
+				(at 2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.be/datasheet/2/670/msd_1_a-3367597.pdf"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "micro-SD card slot"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manufacturerName" "CUI Devices"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouserPartNumber" "179-MSD-1-A"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manufacturerPartNumber" "MSD-1-A"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "microSdCard_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "NC8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
 		)
@@ -5649,7 +5649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "1GlobalSymbolsLibrary:microSdCard")
+		(lib_id "1projectLibrary:microSdCard")
 		(at 231.14 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5685,7 +5685,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/670/msd_1_a-3367597.pdf"
-			(at 226.06 92.71 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5694,7 @@
 			)
 		)
 		(property "Description" "micro-SD card slot"
-			(at 231.14 109.474 0)
+			(at 231.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5702,7 @@
 			)
 		)
 		(property "manufacturerName" "CUI Devices"
-			(at 231.14 83.82 0)
+			(at 231.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5711,7 @@
 			)
 		)
 		(property "mouserPartNumber" "179-MSD-1-A"
-			(at 230.886 109.474 0)
+			(at 231.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,11 +5720,12 @@
 			)
 		)
 		(property "manufacturerPartNumber" "MSD-1-A"
-			(at 234.188 106.934 0)
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/msd-1-a-same+sky-145369555?r=sp"
@@ -5869,7 +5870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 72.0852 59.69 0)
 			(effects
 				(font
@@ -6267,7 +6268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 35.052 148.59 90)
 			(effects
 				(font
@@ -6390,7 +6391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 82.2452 59.69 0)
 			(effects
 				(font
@@ -6486,7 +6487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "1projectLibrary:BME680")
+		(lib_id "1projectLibrary:BME688")
 		(at 231.14 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6522,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf"
+		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
 			(at 226.06 27.94 0)
 			(effects
 				(font
@@ -6594,6 +6595,105 @@
 				(hide yes)
 			)
 		)
+		(property "manufacturer" "Bosch Sensortec"
+			(at 231.14 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier1Name" "Mouser"
+			(at 231.14 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier1PartNumber" "262-BME680"
+			(at 231.14 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier1PartURL" "https://www.mouser.be/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D"
+			(at 229.87 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier2Name" "Digi-Key"
+			(at 229.87 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier2PartNumber" "828-1077-1-ND"
+			(at 229.87 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier2PartURL" "https://www.digikey.be/nl/products/detail/bosch-sensortec/BME680/7401317"
+			(at 232.41 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BME680"
+			(at 231.14 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "remark" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Bosch Sensortec"
+			(at 231.14 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OctoPartURL" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61ed442a-fd1d-49fd-be02-35c14a022922")
 		)
@@ -6655,7 +6755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 92.4052 59.69 0)
 			(effects
 				(font
@@ -6843,7 +6943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 231.902 30.48 90)
 			(effects
 				(font
@@ -7267,7 +7367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 212.852 81.28 90)
 			(effects
 				(font
@@ -7456,7 +7556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 205.232 81.28 90)
 			(effects
 				(font
@@ -7886,7 +7986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 209.042 81.28 90)
 			(effects
 				(font
@@ -8075,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 88.5952 78.74 0)
 			(effects
 				(font
@@ -8198,7 +8298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 254.9652 96.52 0)
 			(effects
 				(font
@@ -8321,7 +8421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 249.8852 60.96 0)
 			(effects
 				(font
@@ -8510,7 +8610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 201.422 81.28 90)
 			(effects
 				(font
@@ -8742,7 +8842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 37.592 148.59 90)
 			(effects
 				(font
@@ -9466,7 +9566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 246.0752 96.52 0)
 			(effects
 				(font
@@ -9589,7 +9689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 216.662 81.28 90)
 			(effects
 				(font

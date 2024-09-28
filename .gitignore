@@ -29,3 +29,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# ignore a file already being tracked : git rm --cached <file>
+# ignore a directory already being tracked : git rm --cached -r <directory>

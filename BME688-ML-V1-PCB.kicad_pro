@@ -532,13 +532,13 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -556,19 +556,19 @@
           "group_by": false,
           "label": "GPN",
           "name": "GPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "manufacturerName",
           "name": "manufacturerName",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "manufacturerPartNumber",
           "name": "manufacturerPartNumber",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

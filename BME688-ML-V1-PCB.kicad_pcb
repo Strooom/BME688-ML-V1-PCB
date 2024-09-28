@@ -93,7 +93,7 @@
 	(net 9 "unconnected-(U1-PH3-Pad31)")
 	(net 10 "SWO")
 	(net 11 "unconnected-(U1-PA4-Pad10)")
-	(net 12 "Net-(CONN3-CD)")
+	(net 12 "CardDetect")
 	(net 13 "unconnected-(U1-PA11-Pad21)")
 	(net 14 "unconnected-(U1-PB4-Pad27)")
 	(net 15 "unconnected-(U1-PB1-Pad15)")
@@ -248,7 +248,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/7efeda0e-caf7-4791-a7b9-2b1adc9e04f0")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -426,7 +426,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d63b1a44-f46f-417c-a739-336e8c9e08c9")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -487,7 +487,7 @@
 				)
 			)
 		)
-		(property "Value" "SM04B-SRSS-TB(LF)(DN)(P)"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -561,7 +561,7 @@
 				)
 			)
 		)
-		(property "manufacturerPartNumber" "SM04B-SRSS-TB(LF)(DN)(P)"
+		(property "manufacturerPartNumber" "SM04B-SRSS-TB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -602,7 +602,7 @@
 		)
 		(path "/e714bc3a-40dd-4423-a98e-7c64205956c4")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.11 -1.785)
@@ -842,17 +842,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "3684a63c-484b-4c78-84e1-35ec92774640")
 		(at 134.55 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f90d444d-6abc-4adc-a144-96f52b856e67")
+			(uuid "e2655184-705b-4282-8662-c0a9887da644")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -861,9 +861,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "c3f73cfc-63e3-4607-bc4c-9b67079fe5f2")
+			(uuid "c04748c9-ceed-4ed0-8f80-be488fc2926a")
 			(effects
 				(font
 					(size 1 1)
@@ -871,12 +871,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "468ef90f-51b1-4128-abd5-bc201ba21a38")
+			(uuid "a40db668-c97c-44bd-a5f8-6d2627fc8feb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +888,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb3332ea-5360-4bad-a5b9-11e9f9ed8402")
+			(uuid "1c015424-9460-4925-8bf3-818849ab793d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,14 +900,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aafba739-7347-44b2-9832-f80edca9ab9a")
+			(uuid "6ca321f1-2a8a-469c-94cf-231d3b60e0b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -988,7 +988,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/49c635c4-bf7d-461a-b6be-0a4e78e08a06")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -998,7 +998,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4ad11661-1156-40f1-96d2-93fc12d4ca82")
+			(uuid "32016e35-52a4-4833-8752-9199202e47e7")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -1008,7 +1008,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "74884fcf-7e7b-4856-84f1-5a0aeb5d9fe4")
+			(uuid "9526954b-4ad6-4ac5-bbab-b7dea4b2bae4")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -1018,7 +1018,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4d04a2f5-f7d7-47b2-a4c9-e98456d018dc")
+			(uuid "b1e40c87-c310-429f-b403-fe801e1f2df2")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -1028,12 +1028,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5d3cd33c-5bdf-4fe6-8bef-ea9235859b2e")
+			(uuid "5ddf7a88-cf05-459a-af6d-2170a39a69ab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "e746e595-2174-4749-940b-9d163925f1b2")
+			(uuid "f2314532-29ec-4a87-b788-8bae711ff3c7")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -1048,7 +1048,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "98bf6d77-cef6-4de8-8d66-4ab33baec9a1")
+			(uuid "ac4ae472-c9b5-441e-afc8-b93d557594c6")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -1057,7 +1057,7 @@
 			(roundrect_rratio 0.25)
 			(net 25 "I2C-SCL")
 			(pintype "passive")
-			(uuid "dce1e9f4-6a82-4a5f-b5cb-8502b103c5ea")
+			(uuid "5cc9d508-033a-40e1-8f00-a48f3c846c45")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -1089,7 +1089,7 @@
 				)
 			)
 		)
-		(property "Value" "SM04B-SRSS-TB(LF)(DN)(P)"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1163,7 +1163,7 @@
 				)
 			)
 		)
-		(property "manufacturerPartNumber" "SM04B-SRSS-TB(LF)(DN)(P)"
+		(property "manufacturerPartNumber" "SM04B-SRSS-TB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1204,7 +1204,7 @@
 		)
 		(path "/138ea193-f244-45e7-bf4c-b35f7813f53f")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.11 -1.785)
@@ -1444,17 +1444,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:C_0603_nominal"
+	(footprint "1projectLibrary:C_0603_nominal"
 		(layer "F.Cu")
 		(uuid "40142d39-9585-41ed-b591-ed31ea90f9de")
 		(at 124.55 80.4 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4b9c78c7-c040-4bd9-8423-1a6a232ee24a")
+			(uuid "871e4a45-b6ad-46b7-9c15-1ec2efb4b273")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1463,10 +1463,10 @@
 			)
 		)
 		(property "Value" "C0603C475K8PAC7411"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61f2e4fc-4e83-4448-88fd-596b10f233ef")
+			(uuid "dde96a81-d1b1-4a2b-b4dd-6e181729ee2d")
 			(effects
 				(font
 					(size 1 1)
@@ -1474,12 +1474,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 0 3.35 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81af195d-a5b2-4ba2-b2cc-51d7b6d7fb78")
+			(uuid "5d594328-337e-43fd-a939-3b67024b256f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec7b8695-1b89-4441-860c-31c3726c89df")
+			(uuid "9c45ee1a-ad67-41a3-bd73-288d23b5bd59")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1503,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49909822-f43f-400e-97ad-78f3ce5f387c")
+			(uuid "44757a80-c64d-42f8-a808-631297194795")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,10 +1575,23 @@
 				)
 			)
 		)
+		(property "GPN" "GPC0603475"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d47338e7-fe3f-4e02-bd8d-10cecdd5facd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a12a114e-7aee-48bd-b21f-1a60fb69752e")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -1588,7 +1601,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "375b5b05-3f85-4943-916d-634c66d929e3")
+			(uuid "436c45e7-59d4-49ec-885a-8169e2bc5c1b")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -1598,7 +1611,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "80c97524-5658-4e74-9683-125f11059a0a")
+			(uuid "ae62bcfe-1de5-4f4a-a89c-ee17cbdd8862")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -1608,7 +1621,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9724a3a8-4150-480e-b5f4-4ecc5300cf2a")
+			(uuid "88b39888-2dfb-4fc2-bf2b-eb58729f145b")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -1618,12 +1631,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a7faef0c-1d52-4e1d-a22e-6ec3c0d1f99c")
+			(uuid "ad60bdc4-b3a4-49a8-bf8d-3e70073b5268")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "29a8ba7a-14ea-4532-8fe6-ad82fab74e60")
+			(uuid "1ff8eb34-1730-448c-a251-151818eb41dd")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -1638,7 +1651,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "aa8d1dea-8029-4812-bc23-76c68ea126e6")
+			(uuid "0c1ed093-db09-4f2d-a54e-3663e1600c5b")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -1647,7 +1660,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "5f87a793-6251-461c-b459-2b7effb4e13f")
+			(uuid "dd29e29b-a50f-425f-bce8-eef698dd6ea8")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
 			(offset
@@ -1795,7 +1808,7 @@
 		(property ki_fp_filters "QFN*1EP*5x5mm*P0.5mm*")
 		(path "/434ab974-db00-44de-82af-0f6a29294b99")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.61 2.61)
@@ -2089,7 +2102,7 @@
 			(size 0.25 0.875)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 12 "Net-(CONN3-CD)")
+			(net 12 "CardDetect")
 			(pinfunction "PA3")
 			(pintype "bidirectional")
 			(uuid "d4773e5e-2fba-45ba-b039-709c42a2f6fe")
@@ -2347,17 +2360,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:C_0603_nominal"
+	(footprint "1projectLibrary:C_0603_nominal"
 		(layer "F.Cu")
 		(uuid "5be0d7d6-0691-49d8-a6da-b29c0e7a6dbf")
 		(at 126.05 80.4 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "455b4dc5-e62b-4777-bb2a-f205e8307832")
+			(uuid "d9215310-5381-43a9-8c77-4a61705a2bf7")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2366,10 +2379,10 @@
 			)
 		)
 		(property "Value" "KGM15AR71C104KT"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66c8c35e-4481-4f72-990a-0b8d5372ab5f")
+			(uuid "e9e4aba7-5347-4869-ad0c-5f8074a5f104")
 			(effects
 				(font
 					(size 1 1)
@@ -2377,12 +2390,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 0 3.35 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b412ae7-96cd-4ca4-9b03-464ab11f5709")
+			(uuid "c542ec8f-2378-4ce6-ad4a-ee7d7a3d87ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2407,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a11d51a-f4b8-4bcc-bc76-f261434251da")
+			(uuid "cd760dd2-1a5e-4399-8987-ddde8c2bdb0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2419,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bcb0757-e5b4-4597-99ff-c111bfb22a8d")
+			(uuid "864f247a-bda9-4385-954b-6a8dbe55c4bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,10 +2491,23 @@
 				)
 			)
 		)
+		(property "GPN" "GPC0603104"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0dcca6e-bc83-4a46-adc1-45cb03342550")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f463d4aa-e4f3-4dd8-af05-edd6eac58d61")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -2491,7 +2517,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "942088dd-3ee7-453c-bfc0-e73b91fae656")
+			(uuid "9aca24d6-3d1e-4889-bdb8-7c84a454310c")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -2501,7 +2527,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "60abfa4a-e6b0-491e-a3cb-17abb9b70718")
+			(uuid "eff485c0-8a49-4d4d-b8dc-d7c644b8e9bc")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -2511,7 +2537,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "45799c68-af44-49dd-88ae-f620dcd10384")
+			(uuid "af55fd46-9380-408f-a9fd-c70eeca3a98f")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -2521,12 +2547,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fb098c87-a8bb-48c9-b9e5-fa804f49b3ae")
+			(uuid "39bdf04d-9e6d-4686-9103-00ad63a3bb99")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "f192af4f-d196-4039-b67d-8533831e2266")
+			(uuid "73167c80-ae24-42de-9c2e-3f6c9a233943")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2541,7 +2567,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "d04ce388-43cd-4f92-a2c9-88084d3d4654")
+			(uuid "8a513abc-95be-43c1-b00f-f98a7894b505")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -2550,7 +2576,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "ac76ff14-b62e-4ed5-9d71-ccbefa9aed37")
+			(uuid "15f23018-3b90-47e3-b4ec-e0db78c434d0")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
 			(offset
@@ -2699,7 +2725,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e3233eeb-42d3-48ee-9c57-465b201f55c6")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -2742,17 +2768,17 @@
 			(uuid "7711f58c-e1cc-446f-8e4b-6658f29e45e1")
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "7d842e94-af51-4ddf-b99e-c3f365d5e517")
 		(at 129.05 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a1033959-081b-4ca3-842c-1260ec915c05")
+			(uuid "edbfbf5e-2c64-45ad-97af-391e613cc630")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2761,9 +2787,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "8abec0af-6814-4ac2-a4b7-c1605c682442")
+			(uuid "7564edf8-add5-463e-8983-e10afc44e950")
 			(effects
 				(font
 					(size 1 1)
@@ -2771,12 +2797,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a88681ad-4ea9-44ea-8988-40d91f19308c")
+			(uuid "d1e3a5d8-a2a6-41ed-883a-2df50a6f1605")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2814,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d8622e2-8822-4dc6-8e3e-a2ec43614336")
+			(uuid "ba56c9b0-645f-4446-851d-a6384853e6d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,14 +2826,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5dcb1b8d-c92c-46df-ac97-9dbaa2345975")
+			(uuid "73b2e60c-85d3-4e77-a2a9-410e054aea51")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2888,7 +2914,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93d81df0-e2eb-48d4-85cd-24c119b49948")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -2898,7 +2924,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fdd99d4d-e8dd-4157-b341-57fb2d33c672")
+			(uuid "86dc57ce-722c-4c3b-aa36-1cb6e90cf8a4")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -2908,7 +2934,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cc4958a5-572c-405e-82c9-4031e10c67c6")
+			(uuid "acb6c2ce-eabe-48c4-a432-af29d414b4da")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -2918,7 +2944,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d6df5196-b4a3-46af-92aa-957602682e01")
+			(uuid "28f3f1eb-bfc0-4d52-bc6c-a7de405af5d2")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -2928,12 +2954,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d45bb3e4-5270-4bf2-bbf8-e9373088d78a")
+			(uuid "54615981-ee82-433c-bac3-1d1716982fa2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "81481866-7531-4f5d-988d-a438551a1b4d")
+			(uuid "702417c1-f4c5-4848-8593-1d05135f50e9")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2948,7 +2974,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "747b0676-fab2-42b3-b165-adda9436949c")
+			(uuid "f48e818d-7a37-416c-bd0c-ee0e4a8c100d")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -2957,7 +2983,7 @@
 			(roundrect_rratio 0.25)
 			(net 26 "CS-SDCARD")
 			(pintype "passive")
-			(uuid "37d5f8ab-f40e-478e-ae9c-8c93dea00890")
+			(uuid "50b0ff79-847a-43c0-a258-d1f62f3958b2")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -2971,17 +2997,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "7dfb4018-eb8e-4f39-bb6b-158cff3f9450")
 		(at 120.8 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e2200e2c-fca4-4e9c-8c49-a726d83d3511")
+			(uuid "a666760b-3cb8-4c60-8508-5377f3a32af9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2990,9 +3016,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "4667fc33-37c1-479b-9463-33a35897d664")
+			(uuid "e65a37dd-f199-4cbc-9cf8-977ce76435ec")
 			(effects
 				(font
 					(size 1 1)
@@ -3000,12 +3026,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8eb3eb37-d6d4-4704-a2fa-ab280eb2ec6a")
+			(uuid "2ea30806-4383-4182-a757-0906cd26649d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3043,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc1337b0-5e2a-4ec9-af2d-27f4c7182561")
+			(uuid "6c8b66f4-b4e9-43fa-8bcb-d950a4b8fa32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,14 +3055,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80aae98f-6fe6-4fe1-91f2-5913747df985")
+			(uuid "aa7a5eaa-eaef-4ee6-9906-9e5900c54005")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3117,7 +3143,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d28a0a1a-9224-4a5d-8e29-e5ea4c204c96")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -3127,7 +3153,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3fb71a1a-29d0-4fd8-a470-6cd07b5342a5")
+			(uuid "d8e16158-e39c-44ec-8a01-762c4b4bc223")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -3137,7 +3163,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fd16310e-96ee-45d4-b0b1-5c9a638f0ed7")
+			(uuid "93898325-ac2c-4a71-8033-fe6f64d4ac35")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -3147,7 +3173,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "46ce95d2-364c-402e-927b-b2af90044054")
+			(uuid "8b2e35a0-07ac-4b8a-9808-6509fe020a70")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -3157,12 +3183,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3035d121-6b0e-4dd6-a338-6014a038a19c")
+			(uuid "5c7179ef-64b7-4b7a-b688-df79e85a4551")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "6ba8f6d7-c35b-4a42-9e84-9b82e566d6a7")
+			(uuid "41695aa3-c633-4e1e-b33d-15eb173959c1")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3177,7 +3203,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "8609c797-46e8-4ae6-9bac-6f635a3e542e")
+			(uuid "ee0d8c04-bf66-416b-bb9f-a46c621ac039")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -3186,7 +3212,7 @@
 			(roundrect_rratio 0.25)
 			(net 31 "Net-(CONN3-NC8)")
 			(pintype "passive")
-			(uuid "6c6fd0eb-c11f-4491-82f8-46bb025cb543")
+			(uuid "eccf5337-36b3-4799-8f02-eafa0e9c3acd")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -3200,17 +3226,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "8cb5bf0a-d5f3-433f-b44d-515667f0becd")
 		(at 133.05 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8e83e37c-f61a-4483-b13e-09a9bfcbfba4")
+			(uuid "35c60f69-c71c-44bb-9e1b-c0ae6ddaa8ba")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3219,9 +3245,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "d5d00db7-7c75-4b9e-ad24-36a23d151894")
+			(uuid "66ad6425-ca96-4515-8680-b27f8ca5eda0")
 			(effects
 				(font
 					(size 1 1)
@@ -3229,12 +3255,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "695c1683-842c-4df0-b186-e61c5ce89f43")
+			(uuid "6980f8dc-b2f3-4996-b2f4-282e9c2dec65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3272,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ed2b768-1a12-43c6-b6a7-dda493bb05e2")
+			(uuid "72974127-c6e1-4364-bfc6-a0f0789fcc7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,14 +3284,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0e477d6-72a2-4813-985e-08c1903403f1")
+			(uuid "f520458e-8c5a-4b26-b76a-8224374bd9c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3346,7 +3372,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d7c945be-8712-442e-bb10-51ae4a63649e")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -3356,7 +3382,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "502d3d9f-4e86-464b-ba93-60ca7c51c722")
+			(uuid "c4ee2713-df93-4a22-bb18-c9049f0ace8a")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -3366,7 +3392,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c1d7d2cb-3e0a-46ce-8f50-7dc523fb11b5")
+			(uuid "accaae35-d27c-4763-80ee-f289d4ae646d")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -3376,7 +3402,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "648d596b-488c-49ca-bdcc-5844a4a4c27b")
+			(uuid "142a8df7-766b-4793-bdc9-3eb49e6acc5a")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -3386,12 +3412,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "06ba156a-c05f-4160-93a1-e8a9329790c3")
+			(uuid "62de3d96-0051-47a2-9387-064f2585e0d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "d9c14a44-343a-43d4-b981-b4fed81cd1eb")
+			(uuid "6946489a-23fe-4d49-90b7-1ee905120067")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3406,7 +3432,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "3a939911-6519-4ac3-9d01-57be0d39dd2b")
+			(uuid "1653ddfe-4a4e-4c65-9367-0eda5c027ed2")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -3415,7 +3441,7 @@
 			(roundrect_rratio 0.25)
 			(net 22 "I2C-SDA")
 			(pintype "passive")
-			(uuid "2f988212-f1f8-4e5e-ab6b-5a336bd236fd")
+			(uuid "00dcf1c5-5e26-419a-b7a0-3c7aafadd601")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -3429,17 +3455,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "8e9f206c-f479-427b-8a7b-9d4e1b8587e6")
 		(at 130.55 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2cf0278d-863d-4115-a045-68910feb6943")
+			(uuid "f1f7247b-ae0a-47ae-80d5-77b264bc566d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3448,9 +3474,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "e1c0ab57-6531-42f1-9f08-a44c2837d349")
+			(uuid "79e48d7b-fecf-4ab3-a4d0-7f2d596be4ae")
 			(effects
 				(font
 					(size 1 1)
@@ -3458,12 +3484,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d70f4c4e-fd7f-402d-8e3e-121bbdc2cfb4")
+			(uuid "295a290c-4834-438d-9eff-bb2dd8b7bdc7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3501,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "437301e7-a7be-4b2a-9f82-e44c7469df0d")
+			(uuid "a0565514-543a-4d8e-a82d-098b6b91492b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,14 +3513,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ffc5c9d-43dc-4a01-8e71-3b1f403c2029")
+			(uuid "ab07f452-6613-4019-850b-92a79de932eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3575,7 +3601,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7d0f641c-45c3-49f9-9ee5-57996b31ba58")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -3585,7 +3611,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "89eaeac2-e75d-4bcc-a00d-c7819b46a4e8")
+			(uuid "8fb92a31-2de9-4d2a-9b2d-6f8521071c34")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -3595,7 +3621,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8c69031f-465f-453b-8612-bcf629ea7d08")
+			(uuid "3b1e044a-fe96-41c1-9887-3277be79c8ac")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -3605,7 +3631,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cac90b3d-3274-4526-aa95-58c4da708429")
+			(uuid "ca0bbd73-766f-4982-a890-75474f4a9ce9")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -3615,12 +3641,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7b86eb6b-1a18-42cf-a63c-07fcb77b424b")
+			(uuid "d55a6e09-2978-479f-bd94-096032617fe1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "9667775e-0508-4c55-b368-8240a684e214")
+			(uuid "a7c29b09-64a0-4b74-b694-7c8ab282ee67")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3635,7 +3661,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "12a14bd4-7769-4ec2-8e8f-e18795427d2e")
+			(uuid "8f1aee24-1ef4-49e1-ab88-86f812418bb0")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -3644,7 +3670,7 @@
 			(roundrect_rratio 0.25)
 			(net 30 "Net-(CONN3-NC1)")
 			(pintype "passive")
-			(uuid "cb2dfb72-3007-46e9-a47d-b54b5c8c5bbd")
+			(uuid "67fcc463-cc9e-4eb6-b085-6f8b2802f4d4")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -3793,7 +3819,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/6adb00f1-905a-422d-b010-df764b04a605")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3836,17 +3862,17 @@
 			(uuid "9cf14657-47b9-4298-b491-7d580ba56619")
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "98af50a7-ed9c-4850-90e6-b215c5e6395c")
 		(at 119.3 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f2c28d01-1f29-4aae-9b88-23376a27a933")
+			(uuid "f6cde7ba-d1b1-4587-b02c-486196c76059")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3855,9 +3881,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "d5d8bcc3-33b2-499f-92fe-2990dd143588")
+			(uuid "1b75dd2f-ba82-42b8-85f8-096da4a29f7d")
 			(effects
 				(font
 					(size 1 1)
@@ -3865,12 +3891,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcbdb152-1f70-4206-a50c-945b90e0f6ae")
+			(uuid "b563b6db-b9f8-48ab-8786-2e5bf5c699d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3908,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66807020-a176-4bfb-8a2b-4a32cfa6bcbd")
+			(uuid "3e5eb634-7d1e-4474-ac38-b543adb02840")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,14 +3920,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27dffd1f-4d87-4251-adaf-3b493899c18c")
+			(uuid "1b057231-051f-4cc8-aceb-17af2c51f995")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3982,7 +4008,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/65037b10-b388-4956-9034-ff5fb3330417")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -3992,7 +4018,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "307207c6-6710-4493-9cf1-4b8f32c6de49")
+			(uuid "287b32b5-a34e-4478-b205-8cb20b85f658")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -4002,7 +4028,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3613ff70-3798-4401-815a-248ea41d6695")
+			(uuid "5ba67448-24b3-4187-ba02-73a87d71d575")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -4012,7 +4038,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "90cf1069-16b9-4a5d-893f-57b5fd32c51d")
+			(uuid "687c1e91-6dc4-41b2-a003-17fe3eac3ea1")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -4022,12 +4048,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e6ce5c10-68c5-47de-b3f8-a39ec0a71217")
+			(uuid "d9658675-bc7b-4b05-9675-6f1c72649606")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "7a4865e7-c2cf-421d-bbd6-a08e2d8a277a")
+			(uuid "604bfe68-cc7b-4fb7-a83b-8470dfe621eb")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -4042,7 +4068,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "f0628dc2-8a66-421e-9728-82ea5e6c1826")
+			(uuid "fb6bf025-3fc6-4d92-91b0-a3d0c2ba0586")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -4051,7 +4077,7 @@
 			(roundrect_rratio 0.25)
 			(net 28 "CS-BME68X")
 			(pintype "passive")
-			(uuid "b24fca7e-beb4-4197-8f12-ce69ce06427c")
+			(uuid "332a59c6-9f7f-4685-a3b5-77c0565058ff")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -4075,7 +4101,7 @@
 			(at 0 -9.12 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "81e3d78b-ace7-4c97-a8cb-db6f2ea9ee13")
+			(uuid "ad8c86ac-4025-4a0f-a243-139b7c88ae00")
 			(effects
 				(font
 					(size 1 1)
@@ -4086,7 +4112,7 @@
 		(property "Value" "notApplicable"
 			(at 0 9.12 180)
 			(layer "F.Fab")
-			(uuid "c51d7bbe-f288-4c89-a286-3922aa7e3cc6")
+			(uuid "7c88bb05-8580-4d05-b683-d4a28ffbd80c")
 			(effects
 				(font
 					(size 1 1)
@@ -4099,7 +4125,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7a1bbde-1603-429d-970a-a8a166d2421c")
+			(uuid "57818d5f-aa37-4820-8c75-c405c75b02aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4137,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6d243d8-eaed-4248-9997-b26d573d9c29")
+			(uuid "93f84885-62f4-4e4d-88ba-8edf7ad23f06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4149,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31246637-a94c-4ea4-b62c-d2a8c0e98f92")
+			(uuid "251c1545-b704-4ff3-bfa6-b30b3a997d28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,18 +4224,18 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/69d1c9a4-4e3c-4d90-9281-db5f0ab7cefc")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr through_hole)
 		(fp_rect
-			(start -1.25 -7.75)
-			(end 1.25 7.75)
+			(start -1.25 -7.5)
+			(end 1.25 7.5)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "61abb2bc-5664-426e-8397-488a7a0f3330")
+			(uuid "a83886a0-cba4-438b-8084-240ad7ca44b3")
 		)
 		(fp_line
 			(start 1.27 7.62)
@@ -4219,7 +4245,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "59bf0155-a07f-4fbc-89e8-ae2f642c5dbf")
+			(uuid "3f112850-a4c5-4751-9f9f-117d5ed723cb")
 		)
 		(fp_line
 			(start 1.27 -6.985)
@@ -4229,7 +4255,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dcc07bc8-75eb-4bbc-879c-19f77ca5ce1d")
+			(uuid "2de32b85-6f0b-4b28-a2f0-dcff0d5c848c")
 		)
 		(fp_line
 			(start 0.635 -7.62)
@@ -4239,7 +4265,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "011c8b2f-dc27-4c6b-a7db-b324c7cf1005")
+			(uuid "3e655b52-6f87-4b90-bd48-c4c1d626371f")
 		)
 		(fp_line
 			(start -1.27 7.62)
@@ -4249,7 +4275,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "937b735f-62e8-4e31-8de4-e089ce46a9c5")
+			(uuid "3fc49cc7-fe67-4329-9671-1ee692fcd8b0")
 		)
 		(fp_line
 			(start -1.27 -7.62)
@@ -4259,12 +4285,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "de07cb11-dd1f-4a27-a545-d85e96db3760")
+			(uuid "1a480387-6a1a-451e-b441-cb9fb8ea8ddd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.5 -6.35 -90)
 			(layer "F.Fab")
-			(uuid "62889dfc-ebdf-4164-bba4-dfdcd4fdac05")
+			(uuid "d853272e-ec49-436c-bc33-e4ee2eeb64f6")
 			(effects
 				(font
 					(size 1 1)
@@ -4281,7 +4307,7 @@
 			(net 2 "+3.3V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "0e4d4449-52e9-4ba9-8379-657996b8407e")
+			(uuid "63dc8899-75fc-4dd0-aee2-a8f434a90432")
 		)
 		(pad "2" thru_hole roundrect
 			(at 0 -3.81 180)
@@ -4293,7 +4319,7 @@
 			(net 1 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "6c2d6601-fbf4-4c3f-a490-b00edd2c7bc3")
+			(uuid "13bd8339-e5b1-415f-a0c7-0c98d8fc3a64")
 		)
 		(pad "3" thru_hole oval
 			(at 0 -1.27 180)
@@ -4304,7 +4330,7 @@
 			(net 19 "SWDIO")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "5a201be3-86b4-46b5-b7ae-9af3f8a49e56")
+			(uuid "c1675758-c703-432f-96da-2a04c4d39163")
 		)
 		(pad "4" thru_hole oval
 			(at 0 1.27 180)
@@ -4315,7 +4341,7 @@
 			(net 21 "SWCLK")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "104417ee-cd7b-4e9a-93fc-5c9b76884396")
+			(uuid "ebb0e307-ebee-4c26-aa16-556af58f8955")
 		)
 		(pad "5" thru_hole oval
 			(at 0 3.81 180)
@@ -4326,7 +4352,7 @@
 			(net 10 "SWO")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "79450143-2d5f-4fcc-9f7a-fe8b9d63465e")
+			(uuid "19191790-c879-4aff-8e7d-6f5d3169feaa")
 		)
 		(pad "6" thru_hole oval
 			(at 0 6.35 180)
@@ -4337,10 +4363,10 @@
 			(net 27 "UART1-TX")
 			(pinfunction "Pin_6")
 			(pintype "passive")
-			(uuid "da336285-fbf7-40e3-9718-08a33ad6af2f")
+			(uuid "76a23a62-4ea5-4215-8e09-c3157b3034c8")
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:C_0603_nominal"
+	(footprint "1projectLibrary:C_0603_nominal"
 		(layer "F.Cu")
 		(uuid "b5629ab8-5301-4888-a2c7-2256b3271b93")
 		(at 132.8 75.7)
@@ -4350,7 +4376,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "119a10db-a652-4123-810a-29910d9a70c8")
+			(uuid "5052946d-f1db-4deb-98d9-a0250cbde695")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4362,7 +4388,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "089a2187-144c-483d-89a6-396d6b205d04")
+			(uuid "c5b73fec-5ffd-4ef6-837e-965a5d50ed89")
 			(effects
 				(font
 					(size 1 1)
@@ -4370,12 +4396,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 0 3.35 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9931d2e1-99fb-4e99-980a-9894ad7a1871")
+			(uuid "689ba44e-61f7-4bab-a578-66a503db70cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae87fe00-f847-44b9-a5ad-d6e60905bbf4")
+			(uuid "32f931e1-8269-4d0a-b752-0765e78f9437")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4425,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33e1e38c-8f07-431e-ac0b-b12d958592a7")
+			(uuid "35db497e-fa06-44e4-b156-679e06f4b0eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,10 +4497,23 @@
 				)
 			)
 		)
+		(property "GPN" "GPC0603104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fedb291-6c47-4821-a383-7fe3fcdd160a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5ab2b2bb-0578-4a29-a541-57fba9739594")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 -0.75)
@@ -4484,7 +4523,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8a37529c-e8fd-4f0b-9a1b-47b31e213d41")
+			(uuid "11906e06-f29c-46db-a72b-2b0ca20527aa")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -4494,7 +4533,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b05bfe06-afa4-40b5-9d79-22bc394a04a9")
+			(uuid "ba0474fd-8332-473e-8193-4220fc8462c6")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -4504,7 +4543,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1deda112-41da-4039-9ac4-d56941b10d24")
+			(uuid "81d08b44-a884-43e6-86f0-a1e07dfbf0f7")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -4514,12 +4553,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0431e93e-2d7f-48d0-9ac8-a632de27a9e5")
+			(uuid "a3bb4688-13cb-4663-8bd7-a21ba4b6e98e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 0)
 			(layer "F.Fab")
-			(uuid "a183f618-1604-4512-a18d-09bfc0d2b02f")
+			(uuid "293002b7-43fa-4534-9c3d-ec9162a437fd")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -4534,7 +4573,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "0ff58d5f-ee96-43cc-8ec9-d34655f3610f")
+			(uuid "55511059-58af-4067-83c5-ea150fbee472")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0)
@@ -4543,7 +4582,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "de1d842e-d1d8-4d40-a637-53f5fd4829e7")
+			(uuid "9df6e830-06ff-4b5e-aac5-f97a85e2cbbf")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
 			(offset
@@ -4557,7 +4596,7 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:C_0603_nominal"
+	(footprint "1projectLibrary:C_0603_nominal"
 		(layer "F.Cu")
 		(uuid "bb8fbc02-e40f-4829-91da-d1125c38cc1b")
 		(at 122.3 73.7 180)
@@ -4567,7 +4606,7 @@
 			(at 0 -1.43 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cfd81911-6441-4728-bf06-c92d84a68359")
+			(uuid "226c75c0-6499-44e5-8a6c-c0bb807bbe97")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4579,7 +4618,7 @@
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9e1fc00-7fd5-4ab7-a5f1-1f82b331603e")
+			(uuid "675b1140-d893-4730-b907-8f19a1007c5b")
 			(effects
 				(font
 					(size 1 1)
@@ -4587,12 +4626,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 0 3.35 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d985c042-43aa-404b-8bf0-6b0f26e823ac")
+			(uuid "ce4b106a-49e5-44c9-b69b-62dc7fe2cb88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4643,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7921483-9953-4c86-a7e9-51d99599e6df")
+			(uuid "8d52a922-19a1-4704-a6da-9512cf0e4af5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4655,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19863577-7fee-493d-9a3b-829c48c5be42")
+			(uuid "e43b502f-5e86-47d8-acc0-dfebcb876841")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,10 +4727,23 @@
 				)
 			)
 		)
+		(property "GPN" "GPC0603475"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "072f3349-baef-4121-af81-687e0db26f83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/320c3b76-57e2-4b5b-a364-8c2cc235b5a9")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.5 0.75)
@@ -4701,7 +4753,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5966f516-873f-4c16-935a-7b094f5bd053")
+			(uuid "deb51d0c-7764-409d-b2cc-cc176af82096")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -4711,7 +4763,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8584cdd1-8239-48c0-812c-470f1335b21a")
+			(uuid "fa6fa2b1-01e9-4847-9586-f4fccbf289af")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -4721,7 +4773,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a8337e8d-311f-43d0-a6b9-8a6be4ce5c40")
+			(uuid "6dea32e7-cba5-4e3a-860f-4c0ef842427e")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -4731,12 +4783,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a2bbabb4-b731-459c-a725-f9ef17139b27")
+			(uuid "d9e96fec-ea79-4480-a46e-bb90cd4d4a4c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 180)
 			(layer "F.Fab")
-			(uuid "6cd3d108-9797-4904-b8e5-c84efd70fe0f")
+			(uuid "9a1f5712-5e4d-4513-b4b2-23168f1bf435")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -4751,7 +4803,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "ff16dc91-315a-4846-b55f-bab9ca2e546f")
+			(uuid "4581aa03-0b2a-420d-bea6-e35085bf1b3e")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 180)
@@ -4760,7 +4812,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "c2be68e7-d8b2-4aa8-8dfc-664b34e0ddd1")
+			(uuid "cd2df60b-ab03-4047-95e7-b4bc3bec4228")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
 			(offset
@@ -4921,7 +4973,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/dbb6d734-1dd0-48e2-b013-29b7b4384e82")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -5112,7 +5164,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/16b41323-435d-4da0-aa5a-eb3f74c035da")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -5156,17 +5208,17 @@
 			(uuid "096a7d88-b04b-4057-ad51-2b1a57285005")
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "cd76e577-5f47-41d9-98b2-fc440bf7b79f")
 		(at 122.3 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "763b5d2e-f411-48e4-9884-aa74e9ceeecb")
+			(uuid "0b281a02-0e1b-4494-be42-11223b10a716")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5175,9 +5227,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "1f264544-0585-4aeb-9011-99a269bfdff9")
+			(uuid "ff7d6eb1-df44-44b1-b917-bdca614cfb60")
 			(effects
 				(font
 					(size 1 1)
@@ -5185,12 +5237,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ecbf161-0901-4659-a793-a5b2468dbe4b")
+			(uuid "4a521fac-e4b9-4b57-8331-8c3e04f2b8f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5254,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99168a7e-2370-4751-8bcb-7200cd6b08b9")
+			(uuid "fdb9f86e-1b2a-4591-9652-83e31a73619a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,14 +5266,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "faa89620-321d-4e2c-aba8-b3d179da8376")
+			(uuid "ed0830c5-1ec2-4c4d-ae0a-d87b2fe70a27")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5302,7 +5354,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/79268724-277a-4d34-9d91-54af0d2be735")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -5312,7 +5364,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b9fa1f67-817c-436a-9a7b-4a68db3481a3")
+			(uuid "603784c1-568b-4813-9791-4f5da903b3c6")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -5322,7 +5374,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e08b603a-84bb-4adb-b883-3191c9613f33")
+			(uuid "86402466-5843-4e4a-ab82-68d1187ae5b2")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -5332,7 +5384,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6734d865-ba96-40e9-9928-778976438d72")
+			(uuid "a9ed00e0-66a0-4b07-861e-dbab14da6bc0")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -5342,12 +5394,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cce41e2f-aeca-4f1d-97f8-5da0acb381b3")
+			(uuid "809c3e7b-dbaa-4b91-a370-b65892c094a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "2542d6db-c6cf-43a4-97ba-9eaa49f6210a")
+			(uuid "69d41388-f669-4d05-af5a-2ea93b507151")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5362,7 +5414,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "52f958a6-a3d9-4d9a-b1c4-77145c9e2fb5")
+			(uuid "dd1abaf8-0975-4ffa-aafa-d98606126b67")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -5371,7 +5423,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "SPI-MISO")
 			(pintype "passive")
-			(uuid "ffc2cc7c-9a8f-4abd-a553-d9d053f3dfbe")
+			(uuid "d7881bc4-b8a6-461f-bae3-b8dd4d420876")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -5385,17 +5437,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:C_0603_nominal"
+	(footprint "1projectLibrary:C_0603_nominal"
 		(layer "F.Cu")
 		(uuid "d92061ae-2a1c-4d89-bf69-487afec8411d")
 		(at 125.05 67.15 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.43 -90)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "926e2ae9-60d0-4d89-981c-90cd5752d2b5")
+			(uuid "a3bb4a95-923f-4e87-86a6-07d8f27c4ab9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5404,10 +5456,10 @@
 			)
 		)
 		(property "Value" "KGM15AR71C104KT"
-			(at 0 1.43 -90)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "572eabad-2678-495b-8076-b8b63cc5422b")
+			(uuid "a2348aa3-e0b8-42ea-add0-4c1ba20554ff")
 			(effects
 				(font
 					(size 1 1)
@@ -5415,12 +5467,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 0 3.35 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "311f5c87-7307-4fe0-bf03-62cc16c33267")
+			(uuid "e3b4e30b-9f47-46a0-a1a6-136b7c380475")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5484,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e002b49e-248e-4d6c-a06f-df224ece2a84")
+			(uuid "0efb778c-b7c5-4396-b95b-8636c1021e44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5496,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62fb1701-dc40-4961-92ef-50fda85c2676")
+			(uuid "a7f3d759-6728-46a2-a37b-f7d2acef9e84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,10 +5568,23 @@
 				)
 			)
 		)
+		(property "GPN" "GPC0603104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a3c5288-e4e3-44d0-bc6e-1ac5649c31d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9fe04587-7342-4692-a1a8-38657b001f83")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.5 -0.75)
@@ -5529,7 +5594,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0aefc3e6-425e-4bcf-949d-dded59709862")
+			(uuid "60559d12-b6a1-46a1-898a-27489bfd71aa")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -5539,7 +5604,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b1fd8290-6658-48ad-8231-078bc423fd82")
+			(uuid "270b0eef-2cf9-4dc7-ac5a-225d968dcc01")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -5549,7 +5614,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a522beda-65af-4b45-bdd0-c7c89bb900fb")
+			(uuid "bb9e7998-c378-4b71-983c-4f14db527574")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -5559,12 +5624,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "249c0c52-242c-442d-88e1-550522a14be3")
+			(uuid "5983f960-b32a-465d-8d07-937c556bac44")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 -90)
+			(at 4 0 90)
 			(layer "F.Fab")
-			(uuid "35b35ec7-65e3-4908-adf5-8f38d6f7b4d2")
+			(uuid "bba08db6-3bf8-44f5-a606-d1284b5b231d")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5579,7 +5644,7 @@
 			(roundrect_rratio 0.25)
 			(net 3 "RESET")
 			(pintype "passive")
-			(uuid "987e1811-ecc4-4e5d-8032-57b7f329236a")
+			(uuid "f517c379-66d4-4516-886d-05a667bd78f3")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 90)
@@ -5588,7 +5653,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "c09ec5a1-d94e-4783-94e0-591dc286b8f6")
+			(uuid "730a5e24-2f8a-4a31-b5ce-044c1d49b2fa")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
 			(offset
@@ -5733,7 +5798,7 @@
 		)
 		(path "/de2282ff-c284-433c-9595-9d57eac52137")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -2.75 -1.75)
@@ -5809,17 +5874,17 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:R_0603_nominal"
+	(footprint "1projectLibrary:R_0603_nominal"
 		(layer "F.Cu")
 		(uuid "e292cea5-267e-4ace-b20e-453709180468")
 		(at 127.55 80.4 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "46b2bc67-6600-40ce-8f2d-fe895f963914")
+			(uuid "2b7e6f3e-32f9-49b4-8f7a-42deccd8c42a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5828,9 +5893,9 @@
 			)
 		)
 		(property "Value" "CR0603-FX-4701ELF"
-			(at 0 1.43 90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "1830d9c1-8030-4969-abbb-7f8bdeab7130")
+			(uuid "e2981eb8-f80c-41ae-9c8d-455b15df0eba")
 			(effects
 				(font
 					(size 1 1)
@@ -5838,12 +5903,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 0 2.75 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef7797f2-e642-44cf-a946-c444fc8579bf")
+			(uuid "9781d3f6-4b21-4178-ab0e-517c71f65259")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5920,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8582c027-18ee-4454-bcc7-a6fbde03ac9c")
+			(uuid "c8f4eec1-83f5-4049-96c1-b831c8f25c30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,14 +5932,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68e883a6-1af4-46f5-a655-8b042d115a41")
+			(uuid "f4fc2adf-6e6f-450d-beba-04bf091ce620")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
+		(property "GPN" "GPR06034K7"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5955,7 +6020,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8ced9cc-e933-41cc-afcd-6d99daa56dcd")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 0.75)
@@ -5965,7 +6030,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ea3d8679-b579-4063-b127-99fb4f5f91ad")
+			(uuid "b5ce5452-e1c3-43cb-9eb3-428735038f7f")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -5975,7 +6040,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3405c784-2b7b-4e38-8b08-96987867cb6f")
+			(uuid "5dc42873-1e00-4b73-95b0-ce0fdf3464cf")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -5985,7 +6050,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "de1e7f68-259a-4454-abb2-f207084ec1b8")
+			(uuid "4ec7fe9d-a463-4a57-89db-df7f5ec3f566")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -5995,12 +6060,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6abe670d-e0c5-4cca-822c-aed2c443c273")
+			(uuid "5a25a5f0-94db-40cf-9468-bdc6e51ec09c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 90)
+			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "7034f8b2-de3d-4f38-9aa8-e5732bedf8a3")
+			(uuid "24bb5aaa-ef73-47f2-a4b4-1e4541cf97a9")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6015,7 +6080,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "802fb500-1e0d-4545-821e-c596b8b0a210")
+			(uuid "a860f9bf-6ec2-403d-9d45-97341de427c5")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -6024,7 +6089,7 @@
 			(roundrect_rratio 0.25)
 			(net 29 "SPI-MOSI")
 			(pintype "passive")
-			(uuid "6bf6e658-0f9d-466e-9ba3-4b818ea74ca9")
+			(uuid "7b8a714a-5f28-4e26-a7ca-00af3dc85fa4")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
 			(offset
@@ -6038,7 +6103,7 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:C_0603_nominal"
+	(footprint "1projectLibrary:C_0603_nominal"
 		(layer "F.Cu")
 		(uuid "eaf38cac-f592-4c37-9eb1-6ea2ae47ea3d")
 		(at 122.3 72.2 180)
@@ -6048,7 +6113,7 @@
 			(at 0 -1.43 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "880968dd-f08b-440d-a0ff-429b0da1ed26")
+			(uuid "5f0507fe-b5c0-416d-8d17-6048dd282b11")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6060,7 +6125,7 @@
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c55a3c9f-320e-41f0-9cd5-1c855f8a4303")
+			(uuid "1163f8e4-b797-4305-ab0d-2bd7c80350d6")
 			(effects
 				(font
 					(size 1 1)
@@ -6068,12 +6133,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 0 3.35 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aeb0b51b-0c7b-4202-b4de-2a50d0aee24d")
+			(uuid "361e6dff-26c9-4007-8280-b5f65c66d243")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6150,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4c2ec63-368f-40ae-83ed-fc4fc15e5da2")
+			(uuid "025690a6-eb85-447e-8b92-61a930df6e36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6162,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eedad43d-ca70-4430-8b3f-9de667341366")
+			(uuid "4c576f88-01c8-41df-b164-75c0f18df966")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,10 +6234,23 @@
 				)
 			)
 		)
+		(property "GPN" "GPC0603104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96239c26-de55-4aae-bbcf-41e17c219d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/501adc79-8418-4f1b-b5eb-b97e2282dd67")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.5 0.75)
@@ -6182,7 +6260,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "663e6714-e1b2-41d5-82b1-e4a23f887b8e")
+			(uuid "d6b52b3d-b772-4245-a7a8-7ae41a2ae205")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -6192,7 +6270,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b040c31e-a188-4adf-a12c-a17c1ac281c6")
+			(uuid "920f1055-8417-43ac-bb0a-c425754e4982")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -6202,7 +6280,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1e5fa07b-e0c2-4a46-8440-3d40caf00141")
+			(uuid "396d9dde-328b-4698-b970-cdae97c1ad25")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -6212,12 +6290,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c02dfdb3-7bd2-4c5e-9538-0850356425f4")
+			(uuid "f2e18c1d-a6f1-45ea-8656-90114dcc8046")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 180)
 			(layer "F.Fab")
-			(uuid "1b249b26-d117-4d0e-84f4-06926b09536a")
+			(uuid "d10104ec-ec57-4755-ad04-c4064540f943")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6232,7 +6310,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "5940d0ef-2a8a-4be3-b97d-55ace500b3f5")
+			(uuid "b7021b78-8f0e-4ca9-9ce7-62096bcda3ad")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 180)
@@ -6241,7 +6319,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "4a4cfd39-5319-452b-83f4-663ee946b3c4")
+			(uuid "112b4e18-6968-44fb-a769-072e1df5d182")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
 			(offset
@@ -6403,7 +6481,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/18add522-c37a-4791-aae3-aa19b323854c")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -6489,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf"
+		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6591,10 +6669,153 @@
 				)
 			)
 		)
+		(property "manufacturer" "Bosch Sensortec"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51b622b1-1722-465c-9f96-27f421402cdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "supplier1Name" "Mouser"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e705e911-1f6f-44f6-91bf-202eb5b9cf7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "supplier1PartNumber" "262-BME680"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03aac4fc-2059-44a0-ab65-d53ea379e097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "supplier1PartURL" "https://www.mouser.be/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "514558cd-dce8-4659-9069-6efae3cfdd6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "supplier2Name" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2a4724f-53db-483e-94c5-2560ec7c6ec1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "supplier2PartNumber" "828-1077-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f87c3a9-a815-4367-afbb-b7f38204656d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "supplier2PartURL" "https://www.digikey.be/nl/products/detail/bosch-sensortec/BME680/7401317"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b2bb901-a5aa-46fe-b02c-463cd75b216e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BME680"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f67a8465-db27-4b81-b787-d9f723a02478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "remark" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dcbe375-959a-433e-b49e-4fc54a56f062")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Bosch Sensortec"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d0c2cff-83a9-44d7-a5bb-e8347377059b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OctoPartURL" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a247449-84ac-4524-81b4-88809e9e165e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*LGA*3x3mm*P0.8mm*Clockwise*")
 		(path "/598bb9ab-c990-4710-b81a-b55a8f0579da")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -6756,7 +6977,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "SPI-MISO")
 			(pinfunction "SDO")
-			(pintype "output")
+			(pintype "tri_state")
 			(uuid "bfaef4e7-030c-422c-85a3-5f5099700fa3")
 		)
 		(pad "6" smd roundrect
@@ -6801,7 +7022,7 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:C_0603_nominal"
+	(footprint "1projectLibrary:C_0603_nominal"
 		(layer "F.Cu")
 		(uuid "fd83b94e-7279-4a05-ab64-87dee3b89e97")
 		(at 116.55 72.15)
@@ -6811,7 +7032,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "93455cbe-a610-4ea3-929d-e54fa44fe4cc")
+			(uuid "9752a116-c885-4a21-ae9f-1279a1b9c640")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6823,7 +7044,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e98b59af-98f2-4b23-8fff-8ac920d5eab5")
+			(uuid "634c504c-c8d6-411e-9d2a-379711a07c31")
 			(effects
 				(font
 					(size 1 1)
@@ -6831,12 +7052,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 0 3.35 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6da1624a-c560-4899-938b-fa8693ab2823")
+			(uuid "42679697-5158-4db5-a043-161a805aae2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +7069,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d86d9501-8b31-4964-ab62-b601142366d8")
+			(uuid "91fa1317-f692-46e9-a605-9f781ef5d797")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +7081,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86b402b7-65d0-4336-b762-bc4996c1006c")
+			(uuid "6d2659c7-8a8e-4cee-ae07-2edfd27f7860")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,10 +7153,23 @@
 				)
 			)
 		)
+		(property "GPN" "GPC0603104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24bde322-4e28-4115-9f1b-b51ab361fe7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b7858b21-49ab-474b-9e38-163bffa1fede")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.5 -0.75)
@@ -6945,7 +7179,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bf4e5900-017c-4f8d-a0aa-8641587458a0")
+			(uuid "e36e62fa-e8e9-4468-9ed0-ea3bde4e75cf")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -6955,7 +7189,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "80be8805-9644-4017-a306-d6718d87deb3")
+			(uuid "57db32e2-aed3-408e-a0c4-2b82000740de")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -6965,7 +7199,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "701c0938-9c47-4233-b17e-7aa196cc45f4")
+			(uuid "a5a05130-6d0f-432b-af69-5396d0ab654b")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -6975,12 +7209,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ac909efb-8784-400a-bcac-7df3f1d3dbbe")
+			(uuid "03def4bc-e977-46e9-ad63-c3d996e1006a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 0)
 			(layer "F.Fab")
-			(uuid "9863e415-2d3d-44a6-a961-7c288c491d94")
+			(uuid "e5e6c4b8-48d1-4279-9527-8c0deb26b90b")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6995,7 +7229,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "3927452f-15ef-4412-a4ac-f3b4582de664")
+			(uuid "15552639-235a-46d1-85de-569917917f9e")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0)
@@ -7004,7 +7238,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "5db75d03-f90d-4545-a7cc-ccd18e69eb9d")
+			(uuid "fff5dd06-5774-4b35-9f56-e42c932e940b")
 		)
 		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
 			(offset
@@ -7149,7 +7383,7 @@
 		)
 		(path "/27d0b94a-0a12-4e5a-925e-39c0ac8e75f8")
 		(sheetname "Root")
-		(sheetfile "BME688.kicad_sch")
+		(sheetfile "BME688-ML-V1-PCB.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start 8.5 -4.25)
@@ -7343,7 +7577,7 @@
 			(roundrect_rratio 0.2)
 			(net 4 "SPI-MISO")
 			(pinfunction "MISO")
-			(pintype "output")
+			(pintype "tri_state")
 			(uuid "6c905ae8-8428-4204-a6df-db20f38a4e90")
 		)
 		(pad "8" smd roundrect
@@ -7361,7 +7595,7 @@
 			(size 0.7 1.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.2)
-			(net 12 "Net-(CONN3-CD)")
+			(net 12 "CardDetect")
 			(pinfunction "CD")
 			(pintype "output")
 			(uuid "3cc0dde3-9592-45b8-9bee-87e388e265ac")

@@ -24,7 +24,7 @@ jobs:
       - name: run KiBOT export
         uses: INTI-CMNB/KiBot@v2_k8
         with:
-          # additional_args: '--verbose'
+          additional_args: '--verbose'
           config: config.kibot.yaml
           dir: outputs
           schema: 'BME688-ML-V1-PCB.kicad_sch'
@@ -37,8 +37,8 @@ jobs:
           git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
 
-      # - name: Upload results
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: output
-      #     path: output
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: outputs

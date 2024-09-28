@@ -852,7 +852,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e2655184-705b-4282-8662-c0a9887da644")
+			(uuid "279df944-7df7-4d2d-9238-40b019c3a978")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -863,7 +863,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "c04748c9-ceed-4ed0-8f80-be488fc2926a")
+			(uuid "5bf5f1a6-1087-40d9-bb0a-8fef546268e0")
 			(effects
 				(font
 					(size 1 1)
@@ -876,7 +876,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a40db668-c97c-44bd-a5f8-6d2627fc8feb")
+			(uuid "36f0cd7a-ff8f-47d0-8c79-5de1b0460d17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +888,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c015424-9460-4925-8bf3-818849ab793d")
+			(uuid "ee6f9b98-1ad0-4e9c-87b7-9e6e0471309a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +900,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ca321f1-2a8a-469c-94cf-231d3b60e0b5")
+			(uuid "69f665f1-77df-400b-aac3-463eb0cbc020")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +998,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "32016e35-52a4-4833-8752-9199202e47e7")
+			(uuid "9dc77861-e120-4aa1-aee5-4652808d29cf")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -1008,7 +1008,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9526954b-4ad6-4ac5-bbab-b7dea4b2bae4")
+			(uuid "14ad0fb6-779b-4c0e-8ffc-c9717381189a")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -1018,7 +1018,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b1e40c87-c310-429f-b403-fe801e1f2df2")
+			(uuid "4e2b7707-db19-4a9f-adfd-229724c9d390")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -1028,12 +1028,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5ddf7a88-cf05-459a-af6d-2170a39a69ab")
+			(uuid "e860c2fa-fe6c-482d-8045-da920cade46a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "f2314532-29ec-4a87-b788-8bae711ff3c7")
+			(uuid "73b35782-8bb7-4313-b0d5-dac8e27c204c")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -1048,7 +1048,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "ac4ae472-c9b5-441e-afc8-b93d557594c6")
+			(uuid "3131945c-9631-43e9-a71f-9f83ff66cbcd")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -1057,9 +1057,9 @@
 			(roundrect_rratio 0.25)
 			(net 25 "I2C-SCL")
 			(pintype "passive")
-			(uuid "5cc9d508-033a-40e1-8f00-a48f3c846c45")
+			(uuid "ed16680f-b49a-480d-ac06-6f9448919251")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1454,7 +1454,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "871e4a45-b6ad-46b7-9c15-1ec2efb4b273")
+			(uuid "b4c3d17b-f644-4245-85a6-e8fb17718833")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1466,7 +1466,7 @@
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dde96a81-d1b1-4a2b-b4dd-6e181729ee2d")
+			(uuid "c7627bde-b3ca-46e5-8a92-018d73243eae")
 			(effects
 				(font
 					(size 1 1)
@@ -1479,7 +1479,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d594328-337e-43fd-a939-3b67024b256f")
+			(uuid "6a61c16c-5b5d-487f-8c1c-09db4b93ba7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c45ee1a-ad67-41a3-bd73-288d23b5bd59")
+			(uuid "46e3458c-7f4b-4abd-8b89-b0e731e4cb48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1503,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44757a80-c64d-42f8-a808-631297194795")
+			(uuid "824981ac-1449-40da-9043-4964e81c013a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1601,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "436c45e7-59d4-49ec-885a-8169e2bc5c1b")
+			(uuid "d1e2299c-6a06-4ccb-8e7b-8f7cf80b7faa")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -1611,7 +1611,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ae62bcfe-1de5-4f4a-a89c-ee17cbdd8862")
+			(uuid "56de31f6-9401-4605-87fe-8ae23547edd5")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -1621,7 +1621,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "88b39888-2dfb-4fc2-bf2b-eb58729f145b")
+			(uuid "b46f222a-f008-45f9-94cd-54c77da0060e")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -1631,12 +1631,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ad60bdc4-b3a4-49a8-bf8d-3e70073b5268")
+			(uuid "4e8fbdf6-c664-4f4c-bc90-5a0ffd8a9f46")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "1ff8eb34-1730-448c-a251-151818eb41dd")
+			(uuid "c27f7731-d723-428c-b94b-d4f6fd49197c")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -1651,7 +1651,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "0c1ed093-db09-4f2d-a54e-3663e1600c5b")
+			(uuid "c43d004d-853f-4d10-89b1-642f3431a16b")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -1660,9 +1660,9 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "dd29e29b-a50f-425f-bce8-eef698dd6ea8")
+			(uuid "add017f0-04f1-4c04-ac6c-e22016bbb5c2")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2370,7 +2370,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d9215310-5381-43a9-8c77-4a61705a2bf7")
+			(uuid "61348038-e9ad-48a9-a53d-631244bd8390")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2382,7 +2382,7 @@
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9e4aba7-5347-4869-ad0c-5f8074a5f104")
+			(uuid "a91df92e-eb95-4363-a706-a05578785f00")
 			(effects
 				(font
 					(size 1 1)
@@ -2395,7 +2395,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c542ec8f-2378-4ce6-ad4a-ee7d7a3d87ed")
+			(uuid "43c18f28-2d99-4796-8755-7d731f117188")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2407,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd760dd2-1a5e-4399-8987-ddde8c2bdb0f")
+			(uuid "4afbc524-5b52-4178-a931-d30d5d180f7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2419,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "864f247a-bda9-4385-954b-6a8dbe55c4bd")
+			(uuid "de431480-24a8-4bb8-a134-51c783aa0d64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9aca24d6-3d1e-4889-bdb8-7c84a454310c")
+			(uuid "7464bdb0-799b-452e-a524-b1ed64e19830")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -2527,7 +2527,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "eff485c0-8a49-4d4d-b8dc-d7c644b8e9bc")
+			(uuid "53d9ffaf-6f6f-4d0f-865f-3a74227e508e")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -2537,7 +2537,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "af55fd46-9380-408f-a9fd-c70eeca3a98f")
+			(uuid "73018d04-8aff-4582-9d39-a1a2cd9f1838")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -2547,12 +2547,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "39bdf04d-9e6d-4686-9103-00ad63a3bb99")
+			(uuid "ac21b819-6d68-491a-9067-97fa9095f785")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "73167c80-ae24-42de-9c2e-3f6c9a233943")
+			(uuid "515044ba-c9e7-406f-9648-f472f71344f1")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2567,7 +2567,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "8a513abc-95be-43c1-b00f-f98a7894b505")
+			(uuid "200f9399-0354-483a-ad81-70793c3bac9d")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -2576,9 +2576,9 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "15f23018-3b90-47e3-b4ec-e0db78c434d0")
+			(uuid "7268530a-07c0-405b-8a08-9090098a7afa")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2778,7 +2778,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "edbfbf5e-2c64-45ad-97af-391e613cc630")
+			(uuid "3f60b15a-c1f0-4095-9e29-b9632b0270ae")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2789,7 +2789,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "7564edf8-add5-463e-8983-e10afc44e950")
+			(uuid "9c84a61d-12d0-4ea4-a1e6-ae9c4d8e933e")
 			(effects
 				(font
 					(size 1 1)
@@ -2802,7 +2802,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1e3a5d8-a2a6-41ed-883a-2df50a6f1605")
+			(uuid "2bd2878f-af1e-4bfc-a920-e02393586fc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2814,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba56c9b0-645f-4446-851d-a6384853e6d1")
+			(uuid "ec2cb0b2-51d1-473c-8769-4c3edc997aae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2826,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73b2e60c-85d3-4e77-a2a9-410e054aea51")
+			(uuid "c5ab3553-054e-41a8-8020-fa0a60f079c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2924,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "86dc57ce-722c-4c3b-aa36-1cb6e90cf8a4")
+			(uuid "0c285866-686d-40e1-ae38-edb267fff440")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -2934,7 +2934,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "acb6c2ce-eabe-48c4-a432-af29d414b4da")
+			(uuid "fb089577-4fe9-4f5b-8c73-18607928b90b")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -2944,7 +2944,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "28f3f1eb-bfc0-4d52-bc6c-a7de405af5d2")
+			(uuid "233fad3d-232d-476c-8912-d85ae31176bd")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -2954,12 +2954,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "54615981-ee82-433c-bac3-1d1716982fa2")
+			(uuid "cc04e281-e05a-4921-b53e-d557cf873445")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "702417c1-f4c5-4848-8593-1d05135f50e9")
+			(uuid "43fb20e8-ae09-48dd-90ff-2862f6a2d775")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2974,7 +2974,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "f48e818d-7a37-416c-bd0c-ee0e4a8c100d")
+			(uuid "190319de-add5-4bf2-b668-058b5e2f47b4")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -2983,9 +2983,9 @@
 			(roundrect_rratio 0.25)
 			(net 26 "CS-SDCARD")
 			(pintype "passive")
-			(uuid "50b0ff79-847a-43c0-a258-d1f62f3958b2")
+			(uuid "5301a5de-ea9b-4913-b20e-48d19113794b")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3007,7 +3007,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a666760b-3cb8-4c60-8508-5377f3a32af9")
+			(uuid "e3f0c98e-8395-49c2-bb37-41bae3014967")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3018,7 +3018,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "e65a37dd-f199-4cbc-9cf8-977ce76435ec")
+			(uuid "5f1abefc-2d36-4865-8b9b-1298a3c27930")
 			(effects
 				(font
 					(size 1 1)
@@ -3031,7 +3031,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ea30806-4383-4182-a757-0906cd26649d")
+			(uuid "07227687-7987-4136-848a-548c60a141c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c8b66f4-b4e9-43fa-8bcb-d950a4b8fa32")
+			(uuid "e09af00b-e890-48ec-b1b7-7164a3a62d41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3055,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa7a5eaa-eaef-4ee6-9906-9e5900c54005")
+			(uuid "db054324-9aa2-456d-bbae-919c71d7ee2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3153,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d8e16158-e39c-44ec-8a01-762c4b4bc223")
+			(uuid "6a095eac-b876-46d5-8553-6d3013f51fa5")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -3163,7 +3163,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "93898325-ac2c-4a71-8033-fe6f64d4ac35")
+			(uuid "ee844b39-6c8c-485e-8711-7f9cc1df9fe1")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -3173,7 +3173,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8b2e35a0-07ac-4b8a-9808-6509fe020a70")
+			(uuid "ea7dcab5-32dd-471a-aee2-222e3e8dc791")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -3183,12 +3183,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5c7179ef-64b7-4b7a-b688-df79e85a4551")
+			(uuid "5f1cf420-7b10-49e8-aba1-be351d57adf7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "41695aa3-c633-4e1e-b33d-15eb173959c1")
+			(uuid "be6ff016-0f05-47a7-9527-39e0aee5f119")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3203,7 +3203,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "ee0d8c04-bf66-416b-bb9f-a46c621ac039")
+			(uuid "e2aa8b47-1b76-446b-bd72-166fe529d6ce")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -3212,9 +3212,9 @@
 			(roundrect_rratio 0.25)
 			(net 31 "Net-(CONN3-NC8)")
 			(pintype "passive")
-			(uuid "eccf5337-36b3-4799-8f02-eafa0e9c3acd")
+			(uuid "e6816406-ebb2-4082-8633-048f58a89625")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3236,7 +3236,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "35c60f69-c71c-44bb-9e1b-c0ae6ddaa8ba")
+			(uuid "caa2a4ab-4c3a-4c4a-9246-0f23f77a6b8d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3247,7 +3247,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "66ad6425-ca96-4515-8680-b27f8ca5eda0")
+			(uuid "535dbbd1-0ada-4029-badf-9c2cfa87c931")
 			(effects
 				(font
 					(size 1 1)
@@ -3260,7 +3260,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6980f8dc-b2f3-4996-b2f4-282e9c2dec65")
+			(uuid "4dc68378-c52b-44e5-8b38-471d7a8423c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3272,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72974127-c6e1-4364-bfc6-a0f0789fcc7b")
+			(uuid "ab2ae35b-125c-4950-a54c-96a99c441f46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3284,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f520458e-8c5a-4b26-b76a-8224374bd9c1")
+			(uuid "75abbdc2-e539-4d6f-8a4e-e01737ac932f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3382,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c4ee2713-df93-4a22-bb18-c9049f0ace8a")
+			(uuid "99fdf795-c8d0-4a67-a2f7-ef413b0febef")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -3392,7 +3392,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "accaae35-d27c-4763-80ee-f289d4ae646d")
+			(uuid "f8797097-5928-4064-8370-8cfb311bf9f5")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -3402,7 +3402,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "142a8df7-766b-4793-bdc9-3eb49e6acc5a")
+			(uuid "8ff02e8e-7e3b-4b0a-9f59-08da935d3ae7")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -3412,12 +3412,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "62de3d96-0051-47a2-9387-064f2585e0d7")
+			(uuid "a19cfbec-33c8-468c-bec5-4b2564d5e760")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "6946489a-23fe-4d49-90b7-1ee905120067")
+			(uuid "bc1940c0-1454-42cb-bcb3-47dd13bde819")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3432,7 +3432,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "1653ddfe-4a4e-4c65-9367-0eda5c027ed2")
+			(uuid "4f472f95-15e4-4a41-a7ed-6ea5acfe738c")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -3441,9 +3441,9 @@
 			(roundrect_rratio 0.25)
 			(net 22 "I2C-SDA")
 			(pintype "passive")
-			(uuid "00dcf1c5-5e26-419a-b7a0-3c7aafadd601")
+			(uuid "1f0c3c10-e22a-44fb-8e0a-624cbffca178")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3465,7 +3465,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f1f7247b-ae0a-47ae-80d5-77b264bc566d")
+			(uuid "f42a137e-7e81-4185-861e-85d67c2a0536")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3476,7 +3476,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "79e48d7b-fecf-4ab3-a4d0-7f2d596be4ae")
+			(uuid "a3cecf1c-f443-4fa3-bb87-e2685810c6fd")
 			(effects
 				(font
 					(size 1 1)
@@ -3489,7 +3489,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "295a290c-4834-438d-9eff-bb2dd8b7bdc7")
+			(uuid "90f44bc5-e56c-424a-9ca7-ad790776e6c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3501,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0565514-543a-4d8e-a82d-098b6b91492b")
+			(uuid "a2d63623-2e83-47ea-95a8-a650ec24e001")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3513,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab07f452-6613-4019-850b-92a79de932eb")
+			(uuid "02768e76-715d-436c-99bb-94c66f348fe6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3611,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8fb92a31-2de9-4d2a-9b2d-6f8521071c34")
+			(uuid "6f97a893-f3ea-476b-8acc-8f930940ba7d")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -3621,7 +3621,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b1e044a-fe96-41c1-9887-3277be79c8ac")
+			(uuid "ae45ccaf-12b1-418b-90d2-d88b7a615d9e")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -3631,7 +3631,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ca0bbd73-766f-4982-a890-75474f4a9ce9")
+			(uuid "a0ba55bc-a00e-4745-9364-c9090d220d9f")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -3641,12 +3641,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d55a6e09-2978-479f-bd94-096032617fe1")
+			(uuid "15c36555-b634-4fc6-a123-d4b1f75ade71")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "a7c29b09-64a0-4b74-b694-7c8ab282ee67")
+			(uuid "950cdf0b-a7ad-4306-85d5-081f3fa0f6f8")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3661,7 +3661,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "8f1aee24-1ef4-49e1-ab88-86f812418bb0")
+			(uuid "73611e30-eec9-4092-a3dc-26f08a3b09e7")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -3670,9 +3670,9 @@
 			(roundrect_rratio 0.25)
 			(net 30 "Net-(CONN3-NC1)")
 			(pintype "passive")
-			(uuid "67fcc463-cc9e-4eb6-b085-6f8b2802f4d4")
+			(uuid "5e15d6b8-afc9-4866-9f70-87dcaf8d38f3")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3872,7 +3872,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f6cde7ba-d1b1-4587-b02c-486196c76059")
+			(uuid "d1c66166-16ae-4662-a296-839d81f9ad3a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3883,7 +3883,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "1b75dd2f-ba82-42b8-85f8-096da4a29f7d")
+			(uuid "2ede053b-1cc8-4310-a7b8-c7cdbf5b36aa")
 			(effects
 				(font
 					(size 1 1)
@@ -3896,7 +3896,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b563b6db-b9f8-48ab-8786-2e5bf5c699d7")
+			(uuid "155f2403-2acd-4d53-8f77-ec7dd34e88ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3908,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e5eb634-7d1e-4474-ac38-b543adb02840")
+			(uuid "430a292e-0b25-4e3f-b1c7-c31f7fa53a2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3920,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b057231-051f-4cc8-aceb-17af2c51f995")
+			(uuid "2d381047-ceba-4273-be4a-9120c5775f03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4018,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "287b32b5-a34e-4478-b205-8cb20b85f658")
+			(uuid "3b8a2bed-7fd9-4949-abb3-1cca7c2f3937")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -4028,7 +4028,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5ba67448-24b3-4187-ba02-73a87d71d575")
+			(uuid "cc8022dc-14a0-4d88-9576-276d1f552081")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -4038,7 +4038,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "687c1e91-6dc4-41b2-a003-17fe3eac3ea1")
+			(uuid "b1856d48-839a-4c29-9b23-55c387edb149")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -4048,12 +4048,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d9658675-bc7b-4b05-9675-6f1c72649606")
+			(uuid "6fec65b3-2b32-4eef-baac-e5b820cff8c2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "604bfe68-cc7b-4fb7-a83b-8470dfe621eb")
+			(uuid "b16326ed-d00d-471c-ba6e-78e110c8ab59")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -4068,7 +4068,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "fb6bf025-3fc6-4d92-91b0-a3d0c2ba0586")
+			(uuid "3e8066b1-0773-44cb-95c7-9a8c2811978b")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -4077,9 +4077,9 @@
 			(roundrect_rratio 0.25)
 			(net 28 "CS-BME68X")
 			(pintype "passive")
-			(uuid "332a59c6-9f7f-4685-a3b5-77c0565058ff")
+			(uuid "20a44c13-8398-45e4-aeee-cef1605421d7")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4376,7 +4376,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5052946d-f1db-4deb-98d9-a0250cbde695")
+			(uuid "322b7bf8-8b3c-4647-b81f-1dfc11e32ac9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4388,7 +4388,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5b73fec-5ffd-4ef6-837e-965a5d50ed89")
+			(uuid "eb230f97-08bc-46f8-b168-7ce7a2845f79")
 			(effects
 				(font
 					(size 1 1)
@@ -4401,7 +4401,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "689ba44e-61f7-4bab-a578-66a503db70cc")
+			(uuid "cd794995-1f77-48a1-9d70-f2e68382413e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32f931e1-8269-4d0a-b752-0765e78f9437")
+			(uuid "2b6eb7e8-b471-42f5-b225-0cf37dcced82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4425,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35db497e-fa06-44e4-b156-679e06f4b0eb")
+			(uuid "eb9faef7-e155-4bb8-88dd-0846b60a4036")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4523,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "11906e06-f29c-46db-a72b-2b0ca20527aa")
+			(uuid "056f4142-6594-41d8-aa6a-332e7ff15587")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -4533,7 +4533,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ba0474fd-8332-473e-8193-4220fc8462c6")
+			(uuid "eabc706e-3e84-47f7-957f-d79f6543d1d0")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -4543,7 +4543,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "81d08b44-a884-43e6-86f0-a1e07dfbf0f7")
+			(uuid "1861a575-465b-4ecf-a440-9730aa1a33a8")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -4553,12 +4553,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a3bb4688-13cb-4663-8bd7-a21ba4b6e98e")
+			(uuid "035b0d92-9558-40cf-be3b-295a437148b2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 0)
 			(layer "F.Fab")
-			(uuid "293002b7-43fa-4534-9c3d-ec9162a437fd")
+			(uuid "5a5bd5f1-dae6-4f83-bebf-ee74953d185e")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -4573,7 +4573,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "55511059-58af-4067-83c5-ea150fbee472")
+			(uuid "f3ee621b-fd2a-4e90-873c-f96724289891")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0)
@@ -4582,9 +4582,9 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "9df6e830-06ff-4b5e-aac5-f97a85e2cbbf")
+			(uuid "122aafa0-feaf-4657-a414-831199148d82")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4606,7 +4606,7 @@
 			(at 0 -1.43 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "226c75c0-6499-44e5-8a6c-c0bb807bbe97")
+			(uuid "3e98d683-be46-4253-8d46-504a94fd51c1")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4618,7 +4618,7 @@
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "675b1140-d893-4730-b907-8f19a1007c5b")
+			(uuid "6663d92b-635d-4a92-9676-4b0a99956d96")
 			(effects
 				(font
 					(size 1 1)
@@ -4631,7 +4631,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce4b106a-49e5-44c9-b69b-62dc7fe2cb88")
+			(uuid "ec5d1ac8-0bd4-4d96-a2c2-f898d608ece1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4643,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d52a922-19a1-4704-a6da-9512cf0e4af5")
+			(uuid "1c0d0635-530a-4e68-b1a9-94b65459babe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4655,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e43b502f-5e86-47d8-acc0-dfebcb876841")
+			(uuid "f899ced0-10dd-4d39-b08d-1dbcea80d8ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4753,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "deb51d0c-7764-409d-b2cc-cc176af82096")
+			(uuid "1a85edba-476f-4bab-85b9-a19681ca6205")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -4763,7 +4763,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fa6fa2b1-01e9-4847-9586-f4fccbf289af")
+			(uuid "59402867-7d2e-427e-b933-25027b789979")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -4773,7 +4773,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6dea32e7-cba5-4e3a-860f-4c0ef842427e")
+			(uuid "351e7fd8-ccd5-47ea-a21f-a6376b4ebf64")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -4783,12 +4783,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d9e96fec-ea79-4480-a46e-bb90cd4d4a4c")
+			(uuid "36ee89c2-594a-4225-a02f-0cc5c6011e8d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 180)
 			(layer "F.Fab")
-			(uuid "9a1f5712-5e4d-4513-b4b2-23168f1bf435")
+			(uuid "cdd68eb4-44d3-4333-9f8d-7f28c0ab9274")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -4803,7 +4803,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "4581aa03-0b2a-420d-bea6-e35085bf1b3e")
+			(uuid "39e1348e-cbaa-44fc-b2a2-1fbdbdca44f0")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 180)
@@ -4812,9 +4812,9 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "cd2df60b-ab03-4047-95e7-b4bc3bec4228")
+			(uuid "b50efe79-8c78-495c-b216-5a19cfdb7c9b")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5218,7 +5218,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0b281a02-0e1b-4494-be42-11223b10a716")
+			(uuid "023b6a48-3c85-46d9-80a3-7d9e0106d53f")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5229,7 +5229,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "ff7d6eb1-df44-44b1-b917-bdca614cfb60")
+			(uuid "9d8f94c1-3263-45f5-90bf-2a8747689cbb")
 			(effects
 				(font
 					(size 1 1)
@@ -5242,7 +5242,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a521fac-e4b9-4b57-8331-8c3e04f2b8f6")
+			(uuid "7e27ffd7-be1c-4715-845d-115aeabe8d9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5254,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fdb9f86e-1b2a-4591-9652-83e31a73619a")
+			(uuid "05efb646-92d7-441b-b467-14eb2fbded2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5266,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed0830c5-1ec2-4c4d-ae0a-d87b2fe70a27")
+			(uuid "4ab85db3-6d5a-4e7f-b4fe-aa4a72ae2041")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5364,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "603784c1-568b-4813-9791-4f5da903b3c6")
+			(uuid "47a328fd-863a-49fb-a743-2fa450907cc2")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -5374,7 +5374,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "86402466-5843-4e4a-ab82-68d1187ae5b2")
+			(uuid "2bc17938-1066-4979-a069-2d69a209a345")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -5384,7 +5384,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a9ed00e0-66a0-4b07-861e-dbab14da6bc0")
+			(uuid "f673a718-7040-4524-9fec-e7011357458e")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -5394,12 +5394,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "809c3e7b-dbaa-4b91-a370-b65892c094a5")
+			(uuid "a7ec4a5e-82fd-4cfe-a963-40deb0d6412f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "69d41388-f669-4d05-af5a-2ea93b507151")
+			(uuid "1ebba9d1-62c9-4fa7-9bf1-66e3f461eac4")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5414,7 +5414,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "dd1abaf8-0975-4ffa-aafa-d98606126b67")
+			(uuid "f04573d4-2eaf-4897-9615-43eedc3b2f27")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -5423,9 +5423,9 @@
 			(roundrect_rratio 0.25)
 			(net 4 "SPI-MISO")
 			(pintype "passive")
-			(uuid "d7881bc4-b8a6-461f-bae3-b8dd4d420876")
+			(uuid "d313b5fc-3eaf-4437-b5b2-722089dc8184")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5447,7 +5447,7 @@
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a3bb4a95-923f-4e87-86a6-07d8f27c4ab9")
+			(uuid "62923685-a5f1-408f-bdb5-a4b8f25d95af")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5459,7 +5459,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2348aa3-e0b8-42ea-add0-4c1ba20554ff")
+			(uuid "e2a2e35d-d612-4ea9-9893-a94ef87a8a61")
 			(effects
 				(font
 					(size 1 1)
@@ -5472,7 +5472,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3b4e30b-9f47-46a0-a1a6-136b7c380475")
+			(uuid "d3e6cc5d-c10b-441b-aafc-efcf78487da2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5484,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0efb778c-b7c5-4396-b95b-8636c1021e44")
+			(uuid "996d5b21-b16f-4e68-961d-948a0242bbd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5496,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7f3d759-6728-46a2-a37b-f7d2acef9e84")
+			(uuid "13f75593-cd72-461b-b00e-61cc520b2cc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5594,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "60559d12-b6a1-46a1-898a-27489bfd71aa")
+			(uuid "16d2d720-174c-44e0-ad90-d79e601bd8ae")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -5604,7 +5604,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "270b0eef-2cf9-4dc7-ac5a-225d968dcc01")
+			(uuid "56687ea5-9ded-41a7-8889-c3e5d08d3a08")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -5614,7 +5614,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bb9e7998-c378-4b71-983c-4f14db527574")
+			(uuid "ba08dff0-4b22-44b0-ae79-5333bba352f4")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -5624,12 +5624,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5983f960-b32a-465d-8d07-937c556bac44")
+			(uuid "5302b239-3251-4aab-acc8-7123ad5e9a6b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 90)
 			(layer "F.Fab")
-			(uuid "bba08db6-3bf8-44f5-a606-d1284b5b231d")
+			(uuid "45df8c75-0b39-4927-a7d3-56926cac241f")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5644,7 +5644,7 @@
 			(roundrect_rratio 0.25)
 			(net 3 "RESET")
 			(pintype "passive")
-			(uuid "f517c379-66d4-4516-886d-05a667bd78f3")
+			(uuid "de0191ae-c85f-4481-9305-1ec7a7d779d4")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 90)
@@ -5653,9 +5653,9 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "730a5e24-2f8a-4a31-b5ce-044c1d49b2fa")
+			(uuid "dd1a51e3-138b-477f-a28c-4309ba8a8532")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5884,7 +5884,7 @@
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2b7e6f3e-32f9-49b4-8f7a-42deccd8c42a")
+			(uuid "a34ad5b3-33db-4308-ae0d-26060cffee6b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5895,7 +5895,7 @@
 		(property "Value" "CR0603-FX-4701ELF"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "e2981eb8-f80c-41ae-9c8d-455b15df0eba")
+			(uuid "5ab7ba26-d59f-4079-bd8e-622a56018078")
 			(effects
 				(font
 					(size 1 1)
@@ -5908,7 +5908,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9781d3f6-4b21-4178-ab0e-517c71f65259")
+			(uuid "8c2b0ac2-1078-437f-8eec-0895b8ef1146")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5920,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8f4eec1-83f5-4049-96c1-b831c8f25c30")
+			(uuid "f9b59c3d-e8fb-43fc-9b58-d665c8024a64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +5932,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4fc2adf-6e6f-450d-beba-04bf091ce620")
+			(uuid "627c8960-259a-4ff4-a714-e11e044f2b56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6030,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b5ce5452-e1c3-43cb-9eb3-428735038f7f")
+			(uuid "d4c7ee72-bcbd-4087-bdd7-a3c9397ba181")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -6040,7 +6040,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5dc42873-1e00-4b73-95b0-ce0fdf3464cf")
+			(uuid "f6b6c088-a54b-43fe-9e6f-7ad5c6a886e1")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -6050,7 +6050,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4ec7fe9d-a463-4a57-89db-df7f5ec3f566")
+			(uuid "0388f00d-57e2-4095-af4a-418e06e63f30")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -6060,12 +6060,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5a25a5f0-94db-40cf-9468-bdc6e51ec09c")
+			(uuid "d875611e-ec80-4278-b0e7-7c56de85a8d4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 -90)
 			(layer "F.Fab")
-			(uuid "24bb5aaa-ef73-47f2-a4b4-1e4541cf97a9")
+			(uuid "e7f14ce4-9a7c-4cb3-a5c4-58e2a17d2aed")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6080,7 +6080,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "a860f9bf-6ec2-403d-9d45-97341de427c5")
+			(uuid "b9e8f277-c00d-4ef1-822e-d0005706a834")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 270)
@@ -6089,9 +6089,9 @@
 			(roundrect_rratio 0.25)
 			(net 29 "SPI-MOSI")
 			(pintype "passive")
-			(uuid "7b8a714a-5f28-4e26-a7ca-00af3dc85fa4")
+			(uuid "872ef5de-1f57-4569-bd5e-ec22c1110d37")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6113,7 +6113,7 @@
 			(at 0 -1.43 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5f0507fe-b5c0-416d-8d17-6048dd282b11")
+			(uuid "44a160a2-70a7-423f-a184-09d3c3361484")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6125,7 +6125,7 @@
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1163f8e4-b797-4305-ab0d-2bd7c80350d6")
+			(uuid "cec87fab-588e-4df0-8c32-c837b13af65d")
 			(effects
 				(font
 					(size 1 1)
@@ -6138,7 +6138,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "361e6dff-26c9-4007-8280-b5f65c66d243")
+			(uuid "481eeef9-196c-49cc-bcc9-3fe203beaf64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6150,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "025690a6-eb85-447e-8b92-61a930df6e36")
+			(uuid "e066f905-8905-4601-ac70-2c828c15fa80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6162,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c576f88-01c8-41df-b164-75c0f18df966")
+			(uuid "fe9cf24a-a27d-4412-9010-9bf4bccc1694")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6260,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d6b52b3d-b772-4245-a7a8-7ae41a2ae205")
+			(uuid "6f320b7a-e8e7-4b6e-a010-1d1e1a8c1189")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -6270,7 +6270,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "920f1055-8417-43ac-bb0a-c425754e4982")
+			(uuid "d6f8f48a-0d1c-4ff5-a9ac-bba7b82e17c0")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -6280,7 +6280,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "396d9dde-328b-4698-b970-cdae97c1ad25")
+			(uuid "444cd8cb-7806-4d43-81a7-801fbd7c25ec")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -6290,12 +6290,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f2e18c1d-a6f1-45ea-8656-90114dcc8046")
+			(uuid "9a652f9b-d9fa-402a-9cbe-0a1237395823")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 180)
 			(layer "F.Fab")
-			(uuid "d10104ec-ec57-4755-ad04-c4064540f943")
+			(uuid "f2ffa606-d002-49bd-b657-4037a2ea1f7a")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6310,7 +6310,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "b7021b78-8f0e-4ca9-9ce7-62096bcda3ad")
+			(uuid "abcb487c-1c83-4dbe-9e62-2c9d72b51d9b")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0 180)
@@ -6319,9 +6319,9 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "112b4e18-6968-44fb-a769-072e1df5d182")
+			(uuid "27359c62-0ea8-4f42-b763-846b5b50134f")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7032,7 +7032,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9752a116-c885-4a21-ae9f-1279a1b9c640")
+			(uuid "0949ffc6-d990-447f-8f14-4fdfbdeba86e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7044,7 +7044,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "634c504c-c8d6-411e-9d2a-379711a07c31")
+			(uuid "99b2235a-1324-4d4f-b1d1-2017ded86e6a")
 			(effects
 				(font
 					(size 1 1)
@@ -7057,7 +7057,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42679697-5158-4db5-a043-161a805aae2f")
+			(uuid "f7f2e587-c4ce-4236-8468-20127039592a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7069,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91fa1317-f692-46e9-a605-9f781ef5d797")
+			(uuid "ca337548-05be-4169-9182-ac1db8466c65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7081,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d2659c7-8a8e-4cee-ae07-2edfd27f7860")
+			(uuid "dcbbf980-af51-4747-95ae-83ac45224491")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7179,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e36e62fa-e8e9-4468-9ed0-ea3bde4e75cf")
+			(uuid "f2ef8e7d-947a-4db9-af87-0c2e9e74808e")
 		)
 		(fp_line
 			(start -1.5 0.75)
@@ -7189,7 +7189,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "57db32e2-aed3-408e-a0c4-2b82000740de")
+			(uuid "7c5de204-43fa-46ac-a980-5325c9ed7ddb")
 		)
 		(fp_line
 			(start 1.5 -0.75)
@@ -7199,7 +7199,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a5a05130-6d0f-432b-af69-5396d0ab654b")
+			(uuid "f01520ba-3087-458f-a9d6-9a94b7baf807")
 		)
 		(fp_line
 			(start 1.5 0.75)
@@ -7209,12 +7209,12 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "03def4bc-e977-46e9-ad63-c3d996e1006a")
+			(uuid "5fcf3c19-7fa9-4370-b589-b5d7b1c66a29")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 0 0)
 			(layer "F.Fab")
-			(uuid "e5e6c4b8-48d1-4279-9527-8c0deb26b90b")
+			(uuid "f27365bf-af7b-4f2a-9fad-cb8569a498de")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -7229,7 +7229,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3.3V")
 			(pintype "passive")
-			(uuid "15552639-235a-46d1-85de-569917917f9e")
+			(uuid "3f459647-4b91-410f-a4ae-646d8fca5a39")
 		)
 		(pad "2" smd roundrect
 			(at 0.75 0)
@@ -7238,9 +7238,9 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "fff5dd06-5774-4b35-9f56-e42c932e940b")
+			(uuid "f185f8cb-cc28-4311-a6d3-e746f14ab338")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 			(offset
 				(xyz 0 0 0)
 			)

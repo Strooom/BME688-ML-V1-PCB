@@ -131,7 +131,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "b3136c2f-02b9-49e1-a069-45a3c84854a1")
 	)
-	(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/C0603_070.step"
+	(model "${KIPRJMOD}/inputs/3dmodels/C0603.step"
 		(offset
 			(xyz 0 0 0)
 		)

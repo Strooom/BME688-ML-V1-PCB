@@ -130,7 +130,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "dbf61a86-b574-45d2-ba89-95e1ee8fabb2")
 	)
-	(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/R0603 ERJ3EK Thick.step"
+	(model "${KIPRJMOD}/inputs/3dmodels/R0603.step"
 		(offset
 			(xyz 0 0 0)
 		)

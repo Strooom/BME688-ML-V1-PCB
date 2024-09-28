@@ -5667,7 +5667,7 @@
 			)
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:Wurth-434133025816"
+	(footprint "1projectLibrary:Wurth-434133025816"
 		(layer "F.Cu")
 		(uuid "dc9c8648-2245-4d80-a8b6-dfeea2226d9e")
 		(at 128.8 66.9 180)
@@ -5676,7 +5676,7 @@
 			(at 0 -3.135 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "69806c8f-9d34-453e-a145-657b31e1202e")
+			(uuid "5eb19d75-a773-4228-9dbe-09224e9175f4")
 			(effects
 				(font
 					(size 1 1)
@@ -5687,7 +5687,7 @@
 		(property "Value" "434133025816"
 			(at 0 2.865 180)
 			(layer "F.Fab")
-			(uuid "2c58ad27-c02e-4296-9d62-bb033733041a")
+			(uuid "bbea06a9-04b1-4c2c-8161-6322ec2829ba")
 			(effects
 				(font
 					(size 1 1)
@@ -5695,12 +5695,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:Wurth-434133025816"
+		(property "Footprint" "1projectLibrary:Wurth-434133025816"
 			(at 0 4 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77f8f849-027b-45a2-b447-853aea67a59e")
+			(uuid "804bc82a-168b-4a04-a5b4-4b0658a962e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +5712,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e5483c0-3650-4b12-84fa-f9e26cbcd37c")
+			(uuid "385cc9ec-b639-4b68-9218-7f9c62022827")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5724,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05271876-407c-40e0-84c3-2ff4e24ed178")
+			(uuid "858519c7-e626-4216-b613-396467e3e473")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5809,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "5dad3f70-8e18-4b03-94ab-373f54eb90e9")
+			(uuid "9fb482cc-f254-4abe-8f9d-bcf462d1ee21")
 		)
 		(fp_rect
 			(start -2.1 -1.6)
@@ -5820,7 +5820,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "77eccf27-3787-499c-899e-52fb97866966")
+			(uuid "3b302f46-649f-49b5-8def-2b724fc6ff7d")
 		)
 		(pad "1" smd roundrect
 			(at -2.075 -1.075 180)
@@ -5830,7 +5830,7 @@
 			(net 3 "RESET")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3dc6ccd3-246c-44f1-9cde-ce48e284382e")
+			(uuid "872ccda6-6ba1-46e4-8108-c818c5d91884")
 		)
 		(pad "2" smd roundrect
 			(at 2.075 -1.075 180)
@@ -5840,7 +5840,7 @@
 			(net 3 "RESET")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "56088bf2-873f-4f51-b582-884d8c337e98")
+			(uuid "be897fef-b4cd-43f8-9a0f-79a2e0eba45c")
 		)
 		(pad "3" smd roundrect
 			(at -2.075 1.075 180)
@@ -5850,7 +5850,7 @@
 			(net 1 "GND")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "8e3739ec-1fab-407f-91d5-cfb87359f5e4")
+			(uuid "99340b9b-2097-41e0-88e7-769a06dd3562")
 		)
 		(pad "4" smd roundrect
 			(at 2.075 1.075 180)
@@ -5860,9 +5860,9 @@
 			(net 1 "GND")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "96f2c91a-7109-4192-8474-5389eda5e983")
+			(uuid "81cbf6b5-858d-4119-8448-41128fd2c78d")
 		)
-		(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/wurth-435451019820.stp"
+		(model "${KIPRJMOD}/inputs/3dmodels/4341x30258x6.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5870,7 +5870,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 90)
 			)
 		)
 	)
@@ -6525,17 +6525,16 @@
 			(uuid "020bfd3e-9c08-41a4-a9a4-28c804d49f8a")
 		)
 	)
-	(footprint "1GlobalFootprintsLibrary:BME680"
+	(footprint "1projectLibrary:BME688"
 		(layer "F.Cu")
 		(uuid "f55839e4-312f-4556-be74-76c8b6706395")
 		(at 116.55 75.05 -90)
 		(descr "Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "U2"
-			(at 0.889 -2.45 90)
+			(at 0.889 -2.45 -90)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "203833d8-206a-4bae-80ff-23df84f4bcc8")
+			(uuid "38a48fef-41e7-438a-883a-7dcec8ff305a")
 			(effects
 				(font
 					(size 1 1)
@@ -6544,10 +6543,9 @@
 			)
 		)
 		(property "Value" "BME688"
-			(at 0 2.45 90)
+			(at 0 2.45 -90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "b206d803-0518-4882-bc09-1a65fc02d794")
+			(uuid "eb2e2690-75b3-40d1-b8d6-f3f9a6e99fc1")
 			(effects
 				(font
 					(size 1 1)
@@ -6555,12 +6553,12 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:BME680"
+		(property "Footprint" "1projectLibrary:BME688"
 			(at 0 4.25 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7afcc4e5-b0dc-4803-a4eb-c07f6e81698a")
+			(uuid "297c7392-3a26-495c-873e-9fea865a87b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6570,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a55798f0-2715-4538-b471-80a76e19f733")
+			(uuid "5ec12c6e-2871-46b7-a337-812bd19f0fc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6582,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33b7747a-b1b6-4934-a2e2-6327b2a9edee")
+			(uuid "cd0c0c11-1436-4bc3-937f-0b3b2ed16a7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +6825,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "1c7a7e2f-af00-405f-abdc-2fbb5b86e4da")
+			(uuid "e5f308c2-fa80-484e-bed1-cddac1fe0d3c")
 		)
 		(fp_line
 			(start -1.75 1.75)
@@ -6837,7 +6835,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3e04a9eb-5ed7-4102-9590-43a537e0b5f0")
+			(uuid "df53b94a-eaaf-4c19-b97a-b0039d5071ee")
 		)
 		(fp_line
 			(start 1.75 1.75)
@@ -6847,7 +6845,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "10b5b006-8b80-407f-9075-562c1199ef9c")
+			(uuid "a7c68587-a8c5-42f2-99f1-72e60986d57b")
 		)
 		(fp_line
 			(start -1.75 -1.75)
@@ -6857,7 +6855,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a68078ff-6a4b-4d00-bd86-5917fe9f536a")
+			(uuid "2c486c8f-5968-41c2-8d7b-9748c1b6894f")
 		)
 		(fp_line
 			(start 1.75 -1.75)
@@ -6867,7 +6865,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "424b1941-ac0f-4e44-8615-26c30fa6d8d4")
+			(uuid "d779c0ab-08a4-406d-a4f7-638e1eb04480")
 		)
 		(fp_line
 			(start -1.5 1.5)
@@ -6877,7 +6875,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ffb0315f-5ea0-4263-8e5f-166439acef59")
+			(uuid "4dfbb8f4-f825-4ba6-9e1f-8daab4cfa272")
 		)
 		(fp_line
 			(start 1.5 1.5)
@@ -6887,7 +6885,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3591d5a8-2c04-4b87-97cc-9e70ace3a163")
+			(uuid "f27a71f5-beaf-4d21-b545-94e57ce7d914")
 		)
 		(fp_line
 			(start -1.5 -0.75)
@@ -6897,7 +6895,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "94f631fb-3392-46c2-b527-1c70dca75168")
+			(uuid "ce9b15b5-98d2-41e4-abee-92b004ce6b7e")
 		)
 		(fp_line
 			(start -0.75 -1.5)
@@ -6907,7 +6905,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9149b761-061a-42ee-8a71-3df692f0aa04")
+			(uuid "0a5bd11f-4798-453e-bc6a-8c2230979306")
 		)
 		(fp_line
 			(start 1.5 -1.5)
@@ -6917,12 +6915,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6111c842-c474-40f1-9031-71341e7a58b0")
+			(uuid "530a19ea-66c7-4f35-9bcc-b3317cee793c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.25 90)
+			(at 0 6.25 -90)
 			(layer "F.Fab")
-			(uuid "7096fc5c-bdfd-4507-81f9-629cad48aa32")
+			(uuid "d4874ec2-d627-4a5c-8db0-5f9a2e754a15")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -6938,7 +6936,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "37a8b185-dd0a-4cce-bd17-cd9e3ee72d03")
+			(uuid "1843e541-50fb-42df-9ec2-c46140d7518e")
 		)
 		(pad "2" smd roundrect
 			(at -0.4 -1.1875 270)
@@ -6948,7 +6946,7 @@
 			(net 28 "CS-BME68X")
 			(pinfunction "~{CS}")
 			(pintype "input")
-			(uuid "f5fef5d6-c2dc-4a57-ade2-b6af1a673ab3")
+			(uuid "840478ae-d5b6-48f1-be2d-f75df2d43191")
 		)
 		(pad "3" smd roundrect
 			(at 0.4 -1.1875 270)
@@ -6958,7 +6956,7 @@
 			(net 29 "SPI-MOSI")
 			(pinfunction "SDI")
 			(pintype "input")
-			(uuid "47c07d27-76b2-489a-9e34-43b05d7da40b")
+			(uuid "06e1b647-f94e-4ecf-bd45-e3f0ee987db4")
 		)
 		(pad "4" smd roundrect
 			(at 1.2 -1.1875 270)
@@ -6968,7 +6966,7 @@
 			(net 7 "SPI1-CLK")
 			(pinfunction "SCK")
 			(pintype "input")
-			(uuid "89f80cc3-684c-495e-957b-2658ab3ad78d")
+			(uuid "fffde362-0b12-4f96-99cb-b187b1462297")
 		)
 		(pad "5" smd roundrect
 			(at 1.2 1.1875 270)
@@ -6978,7 +6976,7 @@
 			(net 4 "SPI-MISO")
 			(pinfunction "SDO")
 			(pintype "tri_state")
-			(uuid "bfaef4e7-030c-422c-85a3-5f5099700fa3")
+			(uuid "1b43aeca-2f70-4ac8-98f4-2b72aebc4b69")
 		)
 		(pad "6" smd roundrect
 			(at 0.4 1.1875 270)
@@ -6988,7 +6986,7 @@
 			(net 2 "+3.3V")
 			(pinfunction "VDDIO")
 			(pintype "power_in")
-			(uuid "67945503-7062-448e-b040-9cb3d498ae8e")
+			(uuid "1e3223c7-1dc6-44d9-b607-23c2ba8dd64f")
 		)
 		(pad "7" smd roundrect
 			(at -0.4 1.1875 270)
@@ -6998,7 +6996,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "d7537f11-93d5-4884-9fdb-8114d47adbb7")
+			(uuid "722fdfb3-adef-449a-8cb8-84f4d1c205c1")
 		)
 		(pad "8" smd roundrect
 			(at -1.2 1.1875 270)
@@ -7008,9 +7006,9 @@
 			(net 2 "+3.3V")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "62f64fcb-cd0b-41be-bab2-b333f8d41e2f")
+			(uuid "ea3b0f55-b9f5-4957-80b5-d718726497ff")
 		)
-		(model "C:/Users/pasca/Documents/Projects/UA/LoRa-v3-PCB/kicadproject/projectlibraries/inputs/BME680.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/BME688.step"
 			(offset
 				(xyz 0 0 0)
 			)

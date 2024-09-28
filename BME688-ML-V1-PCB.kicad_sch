@@ -3238,6 +3238,12 @@
 		(uuid "fe6531b6-8f99-44b2-aaf1-fe0e4f7dc528")
 	)
 	(junction
+		(at 170.18 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff149210-d52c-476b-871f-160deb8a1c44")
+	)
+	(junction
 		(at 172.72 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4781,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 104.14) (xy 170.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6b334c-9fbd-45f8-8a5e-4f3a3a94a806")
+	)
+	(wire
+		(pts
 			(xy 113.03 52.07) (xy 115.57 52.07)
 		)
 		(stroke
@@ -4965,6 +4981,28 @@
 			)
 		)
 	)
+	(global_label "CardDetect"
+		(shape input)
+		(at 167.64 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "860e8396-0b7d-4916-bf63-74c91bcf7cc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3134 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWO"
 		(shape input)
 		(at 110.49 139.7 90)
@@ -5111,7 +5149,7 @@
 			(uuid "37c0e961-b8a1-4190-af22-814715c1e372")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR08")
 					(unit 1)
@@ -5177,7 +5215,7 @@
 			(uuid "b665bc33-e2dd-44ed-89a6-927caf539aad")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR012")
 					(unit 1)
@@ -5298,7 +5336,7 @@
 			(uuid "6c48b637-7666-43e2-8932-74c6a39fc97e")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "CONN1")
 					(unit 1)
@@ -5417,7 +5455,7 @@
 			)
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "F2")
 					(unit 1)
@@ -5536,7 +5574,7 @@
 			)
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "F1")
 					(unit 1)
@@ -5602,7 +5640,7 @@
 			(uuid "c76cd070-55a6-4266-be39-7ff40b0dd77f")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR018")
 					(unit 1)
@@ -5729,7 +5767,7 @@
 			(uuid "145ebdc1-f8f7-44d0-991b-d169257738d8")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "CONN3")
 					(unit 1)
@@ -5795,7 +5833,7 @@
 			(uuid "35aa0493-63a8-46f3-b35f-86bf1a3dbdb3")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR05")
 					(unit 1)
@@ -5918,7 +5956,7 @@
 			(uuid "9fe053eb-d9c3-47a6-8a2f-5c5b1e077e0a")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "C4")
 					(unit 1)
@@ -5984,7 +6022,7 @@
 			(uuid "9833c2ce-82a2-4c70-a642-40cac616ccfb")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR013")
 					(unit 1)
@@ -6193,7 +6231,7 @@
 			(uuid "72fd683a-347b-429a-a7e2-faec391e9b15")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "U1")
 					(unit 1)
@@ -6316,7 +6354,7 @@
 			(uuid "21d010b8-a1c0-43bf-b0dc-d58eef8ddd88")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R3")
 					(unit 1)
@@ -6439,7 +6477,7 @@
 			(uuid "9fe053eb-d9c3-47a6-8a2f-5c5b1e077e0c")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "C1")
 					(unit 1)
@@ -6581,7 +6619,7 @@
 			(uuid "30806ec5-7b02-484b-87c7-bd743990e004")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "U2")
 					(unit 1)
@@ -6704,7 +6742,7 @@
 			(uuid "a5f121b0-9a8f-4940-a5a0-665a72b45361")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "C7")
 					(unit 1)
@@ -6769,7 +6807,7 @@
 			(uuid "37c0e961-b8a1-4190-af22-814715c1e373")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR09")
 					(unit 1)
@@ -6892,7 +6930,7 @@
 			(uuid "8f37a7c7-613c-4d2d-9ab7-3969f1ef728b")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R8")
 					(unit 1)
@@ -7019,7 +7057,7 @@
 			(uuid "0e1744b8-06cf-4488-9bdb-a7729884828d")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "CONN5")
 					(unit 1)
@@ -7128,7 +7166,7 @@
 			)
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "H1")
 					(unit 1)
@@ -7193,7 +7231,7 @@
 			(uuid "311802fe-065e-43e3-817a-47bae95dc096")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#FLG02")
 					(unit 1)
@@ -7316,7 +7354,7 @@
 			(uuid "40738a3a-6ff2-41e9-af1f-073be59523ff")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R4")
 					(unit 1)
@@ -7382,7 +7420,7 @@
 			(uuid "35aa0493-63a8-46f3-b35f-86bf1a3dbdb5")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR04")
 					(unit 1)
@@ -7505,7 +7543,7 @@
 			(uuid "9e53360b-ad93-4311-8e0f-badcf3182fb9")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R6")
 					(unit 1)
@@ -7614,7 +7652,7 @@
 			)
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "H4")
 					(unit 1)
@@ -7680,7 +7718,7 @@
 			(uuid "40f947e5-28d7-498f-8693-a23a7c51aefc")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR011")
 					(unit 1)
@@ -7746,7 +7784,7 @@
 			(uuid "37c0e961-b8a1-4190-af22-814715c1e374")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR010")
 					(unit 1)
@@ -7812,7 +7850,7 @@
 			(uuid "bdd61fe5-d52e-48fa-bb22-2df4825e42e3")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR01")
 					(unit 1)
@@ -7935,7 +7973,7 @@
 			(uuid "fa1f9059-d752-47cb-b43c-19939e5abdf1")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R5")
 					(unit 1)
@@ -8001,7 +8039,7 @@
 			(uuid "98d9d991-91b4-4ff8-ab38-c09d7be378ad")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR014")
 					(unit 1)
@@ -8124,7 +8162,7 @@
 			(uuid "39ea88e4-2c98-405c-aa81-46ee84e85390")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "C6")
 					(unit 1)
@@ -8247,7 +8285,7 @@
 			(uuid "91131477-9e7b-4801-ab29-b0d322a6faae")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "C5")
 					(unit 1)
@@ -8370,7 +8408,7 @@
 			(uuid "9fe053eb-d9c3-47a6-8a2f-5c5b1e077e0d")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "C3")
 					(unit 1)
@@ -8436,7 +8474,7 @@
 			(uuid "61378764-79e8-453e-b623-c0dd3ba911ca")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR06")
 					(unit 1)
@@ -8559,7 +8597,7 @@
 			(uuid "8afaba78-6e45-4571-bd0b-b89a7493c207")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R7")
 					(unit 1)
@@ -8668,7 +8706,7 @@
 			)
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "H2")
 					(unit 1)
@@ -8791,7 +8829,7 @@
 			(uuid "a99311d3-5942-4dac-a2b6-9323c0d903a9")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R2")
 					(unit 1)
@@ -8856,7 +8894,7 @@
 			(uuid "311802fe-065e-43e3-817a-47bae95dc097")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#FLG01")
 					(unit 1)
@@ -8975,7 +9013,7 @@
 			)
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "F3")
 					(unit 1)
@@ -9096,7 +9134,7 @@
 			(uuid "2a24c9e4-7a51-441b-afd2-39d46f91ba9a")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "SW1")
 					(unit 1)
@@ -9205,7 +9243,7 @@
 			)
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "H3")
 					(unit 1)
@@ -9326,7 +9364,7 @@
 			(uuid "48c3659d-f116-41ca-971a-70c5c423bbe5")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "CONN2")
 					(unit 1)
@@ -9392,7 +9430,7 @@
 			(uuid "fe253a91-7356-4a68-a025-ce9f89316b0d")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "#PWR017")
 					(unit 1)
@@ -9515,7 +9553,7 @@
 			(uuid "d76a4540-f52e-4304-b85e-20c0cfeeb578")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "C2")
 					(unit 1)
@@ -9638,7 +9676,7 @@
 			(uuid "cefd6b60-f789-4a03-863e-20be12c448da")
 		)
 		(instances
-			(project "BME688"
+			(project "BME688-ML-V1-PCB"
 				(path "/6605afb5-39d7-43a8-9e09-50a4d28536d6"
 					(reference "R1")
 					(unit 1)

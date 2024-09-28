@@ -16,3 +16,14 @@ outputs:
   - name: '3D model - .step'
     type : step
 
+  - name: 'renders'
+    type: blender_export
+    options:
+      render_options:
+        transparent_background: true
+        samples: 10
+      fixed_auto_camera: false
+      auto_camera_z_axis_factor: 1.5
+      default_file_id: '_%03d'
+      outputs:
+        - type: render

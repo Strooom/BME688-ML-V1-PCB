@@ -7,7 +7,6 @@ preflight:
   erc: true
   drc: true
   check_zone_fills: true
-  dir: reports
 
 outputs:
   - name: 'Schematic PDF'

@@ -1,3 +1,5 @@
+# https://github.com/INTI-CMNB/KiBot/tree/dev/tests/yaml_samples
+
 kibot:
   version: 1
 
@@ -5,6 +7,7 @@ preflight:
   erc: true
   drc: true
   check_zone_fills: true
+  dir: reports
 
 outputs:
   - name: 'Schematic PDF'
@@ -37,7 +40,6 @@ outputs:
       default_file_id: '_%03d'
       outputs:
         - type: render
-        - type: gltf
 
   - name: PcbDraw
     comment: "PcbDraw font test"
@@ -54,6 +56,5 @@ outputs:
       plot_sheet_reference: false
       scaling: 3
       format: PNG
-      color_theme: test_color
       pages:
         - layers: [F.Cu, Edge.Cuts]

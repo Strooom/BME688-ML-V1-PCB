@@ -9,18 +9,19 @@ preflight:
 outputs:
   - name: 'Schematic PDF'
     type: pdf_sch_print
-    dir: 'outputs/pdfs'
+    dir: 'pdf'
 
   - name: 'Interactive BOM'
     type: ibom
-    dir: 'outputs/bom'
+    dir: 'bom'
 
   - name: '3D model - .step'
     type : step
+    dir: 'step'
 
   - name: 'renders'
     type: blender_export
-    dir: 'outputs/renders'
+    dir: 'render'
 
     options:
       add_default_light: true

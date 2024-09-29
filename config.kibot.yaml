@@ -22,7 +22,6 @@ outputs:
   - name: 'renders'
     type: blender_export
     dir: 'render'
-
     options:
       add_default_light: true
       light:
@@ -39,3 +38,22 @@ outputs:
       outputs:
         - type: render
         - type: gltf
+
+  - name: PcbDraw
+    comment: "PcbDraw font test"
+    dir: 'test'
+    type: pcbdraw
+    options:
+      format: png
+
+  - name: 'print_front'
+    comment: "Font and colors"
+    dir: 'test'
+    type: pcb_print
+    options:
+      plot_sheet_reference: false
+      scaling: 3
+      format: PNG
+      color_theme: test_color
+      pages:
+        - layers: [F.Cu, Edge.Cuts]

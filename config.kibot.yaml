@@ -34,4 +34,5 @@ outputs:
       auto_camera_z_axis_factor: 1.5
       default_file_id: '_%03d'
       outputs:
-        - type: render, gltf
+        - type: render
+        - type: gltf

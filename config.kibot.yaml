@@ -10,7 +10,6 @@ outputs:
   - name: 'Schematic PDF'
     type: pdf_sch_print
     dir: 'outputs/pdfs'
-    output: '%f-%i%I%v.%x'
 
   - name: 'Interactive BOM'
     type: ibom

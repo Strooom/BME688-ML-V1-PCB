@@ -279,7 +279,7 @@
 		(roundrect_rratio 0.208333)
 		(uuid "b8a4d09e-b849-4aec-9ae0-9700e4d8b13f")
 	)
-	(model "C:/Users/pasca/Documents/Projects/UA/LoRa-v3-PCB/kicadproject/projectlibraries/inputs/SPARKFUN_QWIIC_RIGHT_ANGLE.step"
+	(model "${KIPRJMOD}/inputs/3dmodels/SPARKFUN_QWIIC_RIGHT_ANGLE.step"
 		(offset
 			(xyz -0.5 17.5 0)
 		)

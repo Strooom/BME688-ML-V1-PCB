@@ -1081,7 +1081,7 @@
 			(at 0 -3.98 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6ea9480b-e386-4dc6-a872-6eebc984e9c5")
+			(uuid "0054b311-117e-48f7-b842-0e310e1fb0e7")
 			(effects
 				(font
 					(size 1 1)
@@ -1093,7 +1093,7 @@
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0be4e0e4-cffd-4be0-bf73-ff6b7cef6f9a")
+			(uuid "2c41a836-c619-4993-8bf0-c0cdf85ce77a")
 			(effects
 				(font
 					(size 1 1)
@@ -1106,7 +1106,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c177c26-9d17-4f7e-9447-abd2efc78603")
+			(uuid "5d1c2ff0-a846-44d4-99e6-0cb358a9de5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1118,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73a8a991-0985-4ed7-a5ba-1d0f1cc54027")
+			(uuid "2fbe9313-a790-4dae-8aaa-776a5e47d942")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1130,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3085f53-0a8d-4331-911d-d667f9ef550e")
+			(uuid "4aaca257-525f-4e18-980b-1b3969de599d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "35cc7237-f505-4374-bffb-40967dac5f3b")
+			(uuid "dd5cca45-03f6-48bf-9285-8447df38933a")
 		)
 		(fp_line
 			(start -3.11 0.715)
@@ -1224,7 +1224,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e2e8fd3-b6e6-4b09-a83b-3bbf2d679b86")
+			(uuid "6db45dae-4ccb-4e34-beb9-63b8ff7a4c9e")
 		)
 		(fp_line
 			(start -2.06 -1.785)
@@ -1234,7 +1234,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f761ff4d-5922-4d59-8049-77ab04c34fc7")
+			(uuid "4e31a1f7-960f-4a4e-964e-bc12bd632db7")
 		)
 		(fp_line
 			(start -1.94 2.685)
@@ -1244,7 +1244,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6574dca8-0c73-4739-a798-da46de30ae1e")
+			(uuid "f1d6beda-6952-4078-8ed5-e12b32a2dee4")
 		)
 		(fp_line
 			(start 3.11 -1.785)
@@ -1254,7 +1254,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "099e6d43-02d4-4a5b-aebf-ebf5eb4ce660")
+			(uuid "c1c84968-26fa-48c4-85de-d029d8fc5184")
 		)
 		(fp_line
 			(start 3.11 0.715)
@@ -1264,7 +1264,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca20d1ee-afeb-4f63-bca1-75b755cd0685")
+			(uuid "f28e2e3f-91de-4530-b875-a3cbec6686ca")
 		)
 		(fp_line
 			(start -3.5 -3)
@@ -1274,7 +1274,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c886f5a0-aea4-410c-a32b-324d75614c22")
+			(uuid "42635653-e914-446c-b620-4d578607ac47")
 		)
 		(fp_line
 			(start -3.5 3)
@@ -1284,7 +1284,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d8b1cd0e-abbd-4c63-ab53-4d6bbb8c8c06")
+			(uuid "79f29188-1c5c-4eb1-91aa-9c96dde00485")
 		)
 		(fp_line
 			(start 3.5 -3)
@@ -1294,7 +1294,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c06e9e63-127d-4d0b-8887-7a2354734a67")
+			(uuid "0834fe61-f90b-4628-8927-a63dc7e94bac")
 		)
 		(fp_line
 			(start 3.5 3)
@@ -1304,7 +1304,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8a331407-9cac-4963-9f93-8190856d49ab")
+			(uuid "06f0f2bf-fec3-40eb-a83e-780ac9d5d903")
 		)
 		(fp_line
 			(start -3 -1.675)
@@ -1314,7 +1314,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3ceaf0b1-5f90-4522-901c-9ffd942a5d46")
+			(uuid "f916e38c-8590-4f19-9fbb-28c98d3c8c37")
 		)
 		(fp_line
 			(start -3 -1.675)
@@ -1324,7 +1324,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "70c8fe11-17af-458a-9daf-7254d952dc81")
+			(uuid "b54ecedf-2a8e-4c3d-9309-88e73e6dced8")
 		)
 		(fp_line
 			(start -3 2.575)
@@ -1334,7 +1334,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "85609a50-9869-46f5-b8e2-45573d0ec31f")
+			(uuid "61327dee-36d2-45e1-a87c-191e1bd5f55a")
 		)
 		(fp_line
 			(start -2 -1.675)
@@ -1344,7 +1344,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b691a7cf-362e-48e8-90c9-b3f9a7a7ef29")
+			(uuid "523fe061-986e-47fa-bec7-7e1e32bc7646")
 		)
 		(fp_line
 			(start -1.5 -0.967893)
@@ -1354,7 +1354,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e6e1017a-7592-4754-80d0-b53d6a893a7d")
+			(uuid "2e7a0459-47b2-4fce-8c31-603ab2fb627e")
 		)
 		(fp_line
 			(start 3 -1.675)
@@ -1364,13 +1364,13 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "87ea6d41-16fc-4c4c-aa75-f460f2fb6f60")
+			(uuid "c058febc-893b-46ac-b1da-d3e03a159278")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 5.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93b244ab-e19f-4a71-b801-a69b657a907a")
+			(uuid "8ca3010e-b59c-4731-88a8-ef5a46145201")
 			(effects
 				(font
 					(size 1 1)
@@ -1386,7 +1386,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "1258d5ec-250a-47c3-9daa-5f71f9caaec1")
+			(uuid "f691514a-02d2-4a5f-b61b-0bc3c2634db1")
 		)
 		(pad "2" smd roundrect
 			(at -0.5 -2)
@@ -1396,7 +1396,7 @@
 			(net 2 "+3.3V")
 			(pinfunction "VCC")
 			(pintype "power_in")
-			(uuid "cd027213-6e5f-4bf1-9484-67069cbeb020")
+			(uuid "53d50e8c-c8a1-4da0-b7ba-95f402558858")
 		)
 		(pad "3" smd roundrect
 			(at 0.5 -2)
@@ -1406,7 +1406,7 @@
 			(net 22 "I2C-SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
-			(uuid "304ad5d4-e1c3-4038-be6e-28cb2d16730f")
+			(uuid "e6c4d4b4-2027-490e-8eb6-310da8b61e7e")
 		)
 		(pad "4" smd roundrect
 			(at 1.5 -2)
@@ -1416,23 +1416,23 @@
 			(net 25 "I2C-SCL")
 			(pinfunction "SCL")
 			(pintype "bidirectional")
-			(uuid "29ab9b65-a133-4ba7-bfa8-99d3885e2248")
+			(uuid "e9a0dd7d-a3e3-48b2-b16f-c25d6d98b6a3")
 		)
 		(pad "MP1" smd roundrect
 			(at -2.8 1.875)
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(uuid "0f2af3a9-9030-46bc-80c4-ac7b5faff305")
+			(uuid "77c38ca9-a7d8-43ee-859b-1b5e0d97a999")
 		)
 		(pad "MP2" smd roundrect
 			(at 2.8 1.875)
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(uuid "9ee6b074-f3f6-4ce2-b9df-ed2714bde178")
+			(uuid "9f2fcffc-df75-4c5c-bbce-63c0279dd0bd")
 		)
-		(model "C:/Users/pasca/Documents/Projects/UA/LoRa-v3-PCB/kicadproject/projectlibraries/inputs/SPARKFUN_QWIIC_RIGHT_ANGLE.step"
+		(model "${KIPRJMOD}/inputs/3dmodels/SPARKFUN_QWIIC_RIGHT_ANGLE.step"
 			(offset
 				(xyz -0.5 17.5 0)
 			)

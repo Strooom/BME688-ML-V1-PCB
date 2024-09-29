@@ -38,8 +38,8 @@ jobs:
           git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
 
-      - name: Upload results
-        uses: actions/upload-artifact@v4
-        with:
-          name: outputs
-          path: outputs
+      # - name: Upload results
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: outputs
+      #     path: outputs

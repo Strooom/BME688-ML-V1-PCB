@@ -22,6 +22,9 @@ outputs:
       render_options:
         transparent_background: true
         samples: 10
+      point_of_view:
+        rotate_x: 30
+        rotate_z: -20
       fixed_auto_camera: false
       auto_camera_z_axis_factor: 1.5
       default_file_id: '_%03d'

@@ -1179,10 +1179,10 @@
 				(alternate "TSC_G2_IO4" bidirectional line)
 				(alternate "USART1_RX" bidirectional line)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -17.78 15.24 0)
 				(length 2.54)
-				(name "PH3"
+				(name "BOOT0"
 					(effects
 						(font
 							(size 1.27 1.27)

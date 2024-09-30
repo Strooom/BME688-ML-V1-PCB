@@ -1188,10 +1188,10 @@
 					(alternate "TSC_G2_IO4" bidirectional line)
 					(alternate "USART1_RX" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -17.78 15.24 0)
 					(length 2.54)
-					(name "PH3"
+					(name "BOOT0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3064,6 +3064,12 @@
 		(uuid "4b73e776-f6a6-4c69-94fb-b77c344b3ca6")
 	)
 	(junction
+		(at 87.63 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc3a179-193e-4bb5-b1f6-0003e2fa2f25")
+	)
+	(junction
 		(at 254 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3278,10 +3284,6 @@
 		(uuid "4b5d8c2b-157e-4ad6-821a-a1218ed67a23")
 	)
 	(no_connect
-		(at 97.79 73.66)
-		(uuid "6f3865ae-fa28-42ba-8e06-1bc01c634bfd")
-	)
-	(no_connect
 		(at 133.35 96.52)
 		(uuid "8ccce321-6827-4d6f-883b-5829c33f06e1")
 	)
@@ -3474,6 +3476,16 @@
 			(type default)
 		)
 		(uuid "300a4148-fd4a-41cf-b90e-1f38bc4876b3")
+	)
+	(wire
+		(pts
+			(xy 97.79 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300ceebc-0470-4f0d-8816-c3b88e01f70d")
 	)
 	(wire
 		(pts
@@ -4267,6 +4279,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 73.66) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab18fb63-fe01-47e7-a8af-246bf857cd11")
+	)
+	(wire
+		(pts
 			(xy 231.14 45.72) (xy 231.14 36.83)
 		)
 		(stroke
@@ -4694,6 +4716,16 @@
 			(type default)
 		)
 		(uuid "ee7d0c24-715e-46cb-bb8c-d51bb0d64b1e")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 87.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fc6aba-7451-4404-a926-4d5622d02a2a")
 	)
 	(wire
 		(pts
@@ -6059,7 +6091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1projectLibrary:STM32-QFN-32-1EP"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 149.86 124.46 0)
 			(effects
 				(font

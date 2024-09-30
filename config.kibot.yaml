@@ -5,9 +5,9 @@ kibot:
 
 preflight:
   erc:
-    dir: reports
+    dir: 'reports'
   drc:
-    dir: reports
+    dir: 'reports'
   check_zone_fills: true
 
 outputs:

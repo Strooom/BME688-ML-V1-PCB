@@ -4,8 +4,10 @@ kibot:
   version: 1
 
 preflight:
-  erc: true
-  drc: true
+  erc:
+    dir: reports
+  drc:
+    dir: reports
   check_zone_fills: true
 
 outputs:

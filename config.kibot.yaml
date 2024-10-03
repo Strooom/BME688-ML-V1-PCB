@@ -23,7 +23,7 @@ outputs:
     type: pcb_print
     dir: 'svg'
     options:
-      format: 'svg'
+      format: 'SVG'
       pages:
         layers: 'copper'
 

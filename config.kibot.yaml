@@ -15,6 +15,18 @@ outputs:
     type: pdf_sch_print
     dir: 'pdf'
 
+  - name: 'Schematic SVG'
+    type: svg_sch_print
+    dir: 'svg'
+
+  - name: 'PCB Print'
+    type: pcb_print
+    dir: 'svg'
+    options:
+      format: 'svg'
+      pages:
+        layers: 'copper'
+
   - name: 'Interactive BOM'
     type: ibom
     dir: 'bom'

@@ -22,7 +22,6 @@ jobs:
       nextminordigit: ${{ steps.selectversion.outputs.nextminordigit }}
       nextpatchdigit: ${{ steps.selectversion.outputs.nextpatchdigit }}
       buildversion: ${{ steps.selectversion.outputs.buildversion }}
-      buildversionfilename: ${{ steps.selectversion.outputs.buildversionfilename }}
 
     env: 
       CI_COMMIT_MESSAGE: add workflow generated files
@@ -80,30 +79,25 @@ jobs:
               declare -i nextmajordigit=${{ steps.versioninfo.outputs.lastmajordigit }}+1
               declare -i nextminordigit=0
               declare buildversion="v$nextmajordigit.$nextminordigit"
-              declare buildversionfilename=$(echo "${buildversion//./_}")
             else
               echo "Incrementing Minor versionDigit"
               declare -i nextmajordigit=${{ steps.versioninfo.outputs.lastmajordigit }}
               declare -i nextminordigit=${{ steps.versioninfo.outputs.lastminordigit }}+1
               declare buildversion="v$nextmajordigit.$nextminordigit"
-              declare buildversionfilename=$(echo "${buildversion//./_}")
             fi
           else
             echo "Not on main branch -> development version"
             declare -i nextmajordigit=${{ steps.versioninfo.outputs.lastmajordigit }}
             declare -i nextminordigit=${{ steps.versioninfo.outputs.lastminordigit }}
             declare buildversion="v$nextmajordigit.$nextminordigit-${{ steps.versioninfo.outputs.commithash }}"
-            declare buildversionfilename=$(echo "${buildversion//./_}")
           fi
           echo "Building Version : $buildversion"
           echo "  Major          : $nextmajordigit"
           echo "  Minor          : $nextminordigit"
-          echo "Filename         : $buildversionfilename"
           echo "output variables to GitHub Actions"
           echo "nextmajordigit=$nextmajordigit" >> $GITHUB_OUTPUT
           echo "nextminordigit=$nextminordigit" >> $GITHUB_OUTPUT
           echo "buildversion=$buildversion" >> $GITHUB_OUTPUT
-          echo "buildversionfilename=$buildversionfilename" >> $GITHUB_OUTPUT
   
       - name: Show Build info
         id: showbuildinfo
@@ -111,7 +105,6 @@ jobs:
           echo "Build Version   : ${{ steps.selectversion.outputs.buildversion }}"
           echo "  Major         : ${{ steps.selectversion.outputs.nextmajordigit }}"
           echo "  Minor         : ${{ steps.selectversion.outputs.nextminordigit }}"
-          echo "Build Filename  : ${{ steps.selectversion.outputs.buildversionfilename }}.bin"
           echo "Build Timestamp : ${{ steps.versioninfo.outputs.buildtimestamp }}"
           echo "Build Epoch     : ${{ steps.versioninfo.outputs.buildEpoch }}"
 

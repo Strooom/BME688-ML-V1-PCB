@@ -39,7 +39,7 @@ outputs:
     type: pcb_print
     options:
       output: 'front.%x'
-      format: 'PNG'
+      format: 'PDF'
       pages:
         - layers:
             - layer: F.Cu
@@ -54,7 +54,7 @@ outputs:
     type: pcb_print
     options:
       output: 'back.%x'
-      format: 'PNG'
+      format: 'PDF'
       pages:
         - layers:
             - layer: B.Cu

@@ -35,8 +35,6 @@ outputs:
     type: bom
     dir: 'bom'
     category: 'bom'
-    options:
-      csv:
 
 # PCB outputs
   - name: 'print_front'

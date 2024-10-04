@@ -35,8 +35,11 @@ outputs:
     type: pcb_print
     options:
       scaling: 0
+      autoscale_margin_x: 10
+      autoscale_margin_y: 10
       output: 'front.%x'
       format: 'PDF'
+      plot_sheet_reference: false
       pages:
         - layers:
             - layer: F.Cu
@@ -51,8 +54,11 @@ outputs:
     type: pcb_print
     options:
       scaling: 0
+      autoscale_margin_x: 10
+      autoscale_margin_y: 10
       output: 'back.%x'
       format: 'PDF'
+      plot_sheet_reference: false
       pages:
         - layers:
             - layer: B.Cu
@@ -64,6 +70,39 @@ outputs:
           monochrome: true
           mirror: true
           sheet_reference_color: "#A02020"
+
+  - name: 'print_both'
+    comment: "Print Top and Bottom layers"
+    type: pcb_print
+    dir: 'pcb'
+    options:
+      format: 'PDF'
+      pages:
+        - scaling: 0
+          autoscale_margin_x: 10
+          autoscale_margin_y: 10
+          sheet: '%ln'
+          repeat_for_layer: 'F.Cu'
+          repeat_layers: outers
+          layers:
+            - layer: Edge.Cuts
+            - layer: F.Cu
+            - layer: F.Mask
+              color: '#14332440'
+            - layer: F.Paste
+            - layer: F.SilkS
+            - layer: F.Fab
+              plot_footprint_refs: false
+              plot_footprint_values: false
+        - scaling: 0
+          autoscale_margin_x: 10
+          autoscale_margin_y: 10
+          sheet: '%ln'
+          repeat_for_layer: 'F.Cu'
+          layers:
+            - layer: Edge.Cuts
+            - layer: F.Cu
+            - layer: F.SilkS
 
   - name: '3D model - .step'
     type : step

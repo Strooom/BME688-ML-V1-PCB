@@ -120,10 +120,10 @@ jobs:
             # ### Changes will be overwritten on the next workflow run               ###
             # ##########################################################################
             definition:
-              mainVersionDigit: ${{ steps.selectversion.outputs.nextmajordigit }};
-              minorVersionDigit: ${{ steps.selectversion.outputs.nextminordigit }};
-              lastCommitTag: "${{ steps.versioninfo.outputs.commithash }}";
-              buildTimeStamp: "${{ steps.versioninfo.outputs.buildtimestamp }}";
+              mainVersionDigit: ${{ steps.selectversion.outputs.nextmajordigit }}
+              minorVersionDigit: ${{ steps.selectversion.outputs.nextminordigit }}
+              lastCommitTag: "${{ steps.versioninfo.outputs.commithash }}"
+              buildTimeStamp: "${{ steps.versioninfo.outputs.buildtimestamp }}"
 
       - name: Verify Saved Build info
         run: |
@@ -135,8 +135,8 @@ jobs:
           additional_args: '--verbose'
           config: config.kibot.yaml
           dir: outputs
-          #schema: 'BME688-ML-V1-PCB.kicad_sch' # if there is only 1 schematic file, it will be selected automatically
-          #board: 'BME688-ML-V1-PCB.kicad_pcb' # if there is only 1 pcb design, it will be selected automatically
+#schema: 'BME688-ML-V1-PCB.kicad_sch' # if there is only 1 schematic file, it will be selected automatically
+#board: 'BME688-ML-V1-PCB.kicad_pcb' # if there is only 1 pcb design, it will be selected automatically
 
       - name: GIT Commit CI Artifacts
         run: |
@@ -145,3 +145,27 @@ jobs:
           git add .
           git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
+
+      - name: Release when on main branch
+        id: createrelease
+        uses: actions/create-release@v1
+        if: ${{ steps.versioninfo.outputs.branchname == 'main'}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.selectversion.outputs.buildversion }}
+          release_name: Release ${{ steps.selectversion.outputs.buildversion }}
+          draft: false
+          prerelease: false
+
+      # - name: Attach Binary to Release
+      #   id: attachbinarytorelease
+      #   uses: actions/upload-release-asset@v1
+      #   if: ${{ steps.versioninfo.outputs.branchname == 'main'}}
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.createrelease.outputs.upload_url }}
+      #     asset_path: .pio/build/production/firmware.bin
+      #     asset_name: ${{ steps.selectversion.outputs.buildversionfilename }}.bin
+      #     asset_content_type: application/octet-stream

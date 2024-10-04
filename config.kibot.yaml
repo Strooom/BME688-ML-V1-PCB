@@ -4,7 +4,21 @@ kibot:
   version: 1
 
 preflight:
-  draw_stackup: true
+  update_pcb_characteristics: false
+  update_stackup: false
+  draw_stackup:
+    gerber: gerbers
+    border: 0
+    columns:
+      - type: gerber
+        width: 10
+      - type: drawing
+        width: 15
+      - type: thickness
+        width: 5
+        # side: right
+      - type: description
+        width: 20
   check_zone_fills: true
   erc:
     category: 'schematics'

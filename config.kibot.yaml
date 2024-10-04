@@ -22,10 +22,6 @@ outputs:
     type: pdf_sch_print
     dir: 'schematic'
 
-  - name: 'Schematic SVG'
-    type: svg_sch_print
-    dir: 'schematic'
-
 # BOM outputs
   - name: 'Interactive BOM'
     type: ibom
@@ -38,6 +34,7 @@ outputs:
     dir: 'pcb'
     type: pcb_print
     options:
+      scaling: 0
       output: 'front.%x'
       format: 'PDF'
       pages:
@@ -53,6 +50,7 @@ outputs:
     dir: 'pcb'
     type: pcb_print
     options:
+      scaling: 0
       output: 'back.%x'
       format: 'PDF'
       pages:

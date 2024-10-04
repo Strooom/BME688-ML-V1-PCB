@@ -4,7 +4,7 @@
 # ### Changes will be overwritten on the next workflow run               ###
 # ##########################################################################
 definition:
-  mainVersionDigit: 1;
-  minorVersionDigit: 0;
-  lastCommitTag: "e710522";
-  buildTimeStamp: "Fri Oct 04 19:15:20 2024";
+  mainVersionDigit: 1
+  minorVersionDigit: 0
+  lastCommitTag: "87a8327"
+  buildTimeStamp: "Fri Oct 04 19:38:51 2024"

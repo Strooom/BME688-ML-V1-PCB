@@ -1,4 +1,4 @@
-name: "KiCad DRC / ERC Check"
+name: "KiCad ERC/DRC Check and Outputs generation"
 on:
   workflow_dispatch:
   push:
@@ -27,8 +27,8 @@ jobs:
           additional_args: '--verbose'
           config: config.kibot.yaml
           dir: outputs
-          schema: 'BME688-ML-V1-PCB.kicad_sch'
-          board: 'BME688-ML-V1-PCB.kicad_pcb'
+          #schema: 'BME688-ML-V1-PCB.kicad_sch' # if there is only 1 schematic file, it will be selected automatically
+          #board: 'BME688-ML-V1-PCB.kicad_pcb' # if there is only 1 pcb design, it will be selected automatically
 
       - name: GIT Commit CI Artifacts
         run: |

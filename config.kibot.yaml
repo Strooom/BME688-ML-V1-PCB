@@ -4,25 +4,43 @@ kibot:
   version: 1
 
 preflight:
-  erc:
-    dir: 'reports'
-  drc:
-    dir: 'reports'
+  draw_stackup: true
   check_zone_fills: true
+  erc:
+    category: 'schematics'
+    dir: 'reports'
+    format: 'HTML, RPT'
+    output: 'schematic electrical-rule-check report.%x'
+  drc:
+    category: 'pcb'
+    dir: 'reports'
+    format: 'HTML, RPT'
+    output: 'PCB design-rule-check report.%x'
 
 outputs:
+# Schematic outputs
   - name: 'Schematic PDF'
     type: pdf_sch_print
-    dir: 'pdf'
+    dir: 'schematic'
 
   - name: 'Schematic SVG'
     type: svg_sch_print
-    dir: 'svg'
+    dir: 'schematic'
 
+# BOM outputs
+  - name: 'Interactive BOM'
+    type: ibom
+    dir: 'bom'
+    category: 'bom'
+
+
+# PCB outputs
   - name: 'print_front'
+    dir: 'pcb'
     type: pcb_print
     options:
-      format: 'SVG'
+      output: 'front.%x'
+      format: 'PNG'
       pages:
         - layers:
             - layer: F.Cu
@@ -32,10 +50,12 @@ outputs:
               color: "#004040"
           page_id: F_Cu_color
 
-  - name: 'print_bottom'
+  - name: 'print_back'
+    dir: 'pcb'
     type: pcb_print
     options:
-      format: 'SVG'
+      output: 'back.%x'
+      format: 'PNG'
       pages:
         - layers:
             - layer: B.Cu
@@ -48,17 +68,13 @@ outputs:
           mirror: true
           sheet_reference_color: "#A02020"
 
-  - name: 'Interactive BOM'
-    type: ibom
-    dir: 'bom'
-
   - name: '3D model - .step'
     type : step
-    dir: 'step'
+    dir: 'pcb'
 
   - name: 'renders'
     type: blender_export
-    dir: 'render'
+    dir: 'pcb'
     options:
       add_default_light: true
       light:

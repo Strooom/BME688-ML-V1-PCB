@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.98 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "a2ec2eaa-832a-4386-8662-71a27078664c")
 		(effects
 			(font
@@ -265,14 +266,14 @@
 		(roundrect_rratio 0.25)
 		(uuid "f9512620-911c-4870-be6c-40b36a1b6868")
 	)
-	(pad "MP1" smd roundrect
+	(pad "P" smd roundrect
 		(at -2.8 1.875)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.208333)
 		(uuid "41e5ecdd-925e-496e-9c37-ce83ab361ee9")
 	)
-	(pad "MP2" smd roundrect
+	(pad "P" smd roundrect
 		(at 2.8 1.875)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")

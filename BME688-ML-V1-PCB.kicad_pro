@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -180,7 +180,8 @@
         0.0,
         0.2,
         0.25,
-        0.3
+        0.3,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -235,7 +236,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1003300|1473200|b02042a2-c9c9-459d-82f1-ad48c687df5c|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|749300|1473200|20cbf9e6-c21c-404d-b7f7-ad0a3cb0f047|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -592,6 +596,72 @@
           "group_by": false,
           "label": "digikeyPartNumber",
           "name": "digikeyPartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer",
+          "name": "manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OctoPartURL",
+          "name": "OctoPartURL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "remark",
+          "name": "remark",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supplier1Name",
+          "name": "supplier1Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supplier1PartNumber",
+          "name": "supplier1PartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supplier1PartURL",
+          "name": "supplier1PartURL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supplier2Name",
+          "name": "supplier2Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supplier2PartNumber",
+          "name": "supplier2PartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "supplier2PartURL",
+          "name": "supplier2PartURL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
           "show": false
         }
       ],

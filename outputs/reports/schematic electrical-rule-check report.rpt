@@ -1,0 +1,12 @@
+ERC report (2024-10-04T14:02:47+0000, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: Symbol 'Qwiic connector' has been modified in library '1projectLibrary'
+    ; warning
+    @(0.7493 mm, 1.4732 mm): Symbol CONN1 [Qwiic connector]
+
+[lib_symbol_issues]: Symbol 'Qwiic connector' has been modified in library '1projectLibrary'
+    ; warning
+    @(1.0033 mm, 1.4732 mm): Symbol CONN2 [Qwiic connector]
+
+ ** ERC messages: 2  Errors 0  Warnings 2

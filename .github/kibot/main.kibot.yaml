@@ -31,7 +31,6 @@ outputs:
     dir: 'bom'
     category: 'bom'
 
-
 # PCB outputs
   - name: 'print_front'
     dir: 'pcb'
@@ -47,10 +46,6 @@ outputs:
         - layers:
             - layer: F.Cu
             - layer: F.Mask
-              color: '#008C4A40'
-            - layer: Edge.Cuts
-              color: "#004040"
-          page_id: F_Cu_color
 
   - name: 'print_back'
     dir: 'pcb'
@@ -66,13 +61,8 @@ outputs:
         - layers:
             - layer: B.Cu
             - layer: B.Mask
-              color: '#008C4A40'
-            - layer: User.Drawings
-            - layer: User.Comments
           sort_layers: true
-          monochrome: true
           mirror: true
-          sheet_reference_color: "#A02020"
 
   - name: '3D model - .step'
     type : step

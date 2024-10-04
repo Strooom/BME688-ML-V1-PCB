@@ -111,7 +111,7 @@ jobs:
       - name: Save Build info
         uses: "DamianReeves/write-file-action@master"
         with:
-          path: version.yaml
+          path: .github/kibot/version.yaml
           write-mode: overwrite
           contents: |
             # ##########################################################################
@@ -127,13 +127,13 @@ jobs:
 
       - name: Verify Saved Build info
         run: |
-          cat version.yaml
+          cat .github/kibot/version.yaml
 
       - name: run KiBOT export
         uses: INTI-CMNB/KiBot@v2_k8
         with:
           additional_args: '--verbose'
-          config: config.kibot.yaml
+          config: .github/kibot/main.kibot.yaml
           dir: outputs
 #schema: 'BME688-ML-V1-PCB.kicad_sch' # if there is only 1 schematic file, it will be selected automatically
 #board: 'BME688-ML-V1-PCB.kicad_pcb' # if there is only 1 pcb design, it will be selected automatically

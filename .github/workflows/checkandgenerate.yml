@@ -7,9 +7,22 @@ on:
 jobs:
   drcerc:
     name: Run DRC and ERC, Export Schematic as PDF
+    permissions: write-all
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    outputs:
+      branchname: ${{ steps.versioninfo.outputs.branchname }}
+      commithash: ${{ steps.versioninfo.outputs.commithash }}
+      buildtimestamp: ${{ steps.versioninfo.outputs.buildtimestamp }}
+      buildEpoch: ${{ steps.versioninfo.outputs.buildEpoch }}
+      lastmajordigit: ${{ steps.versioninfo.outputs.lastmajordigit }}
+      lastminordigit: ${{ steps.versioninfo.outputs.lastminordigit }}
+      lastpatchdigit: ${{ steps.versioninfo.outputs.lastpatchdigit }}
+      lastversion: ${{ steps.versioninfo.outputs.lastversion }}
+      nextmajordigit: ${{ steps.selectversion.outputs.nextmajordigit }}
+      nextminordigit: ${{ steps.selectversion.outputs.nextminordigit }}
+      nextpatchdigit: ${{ steps.selectversion.outputs.nextpatchdigit }}
+      buildversion: ${{ steps.selectversion.outputs.buildversion }}
+      buildversionfilename: ${{ steps.selectversion.outputs.buildversionfilename }}
 
     env: 
       CI_COMMIT_MESSAGE: add workflow generated files
@@ -20,6 +33,87 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Get version data
+        id: versioninfo
+        run: |
+          echo "extract branch name from github_ref '${{ github.ref }}'"
+          declare branchname=$(echo "${{ github.ref }}" | cut -d'/' -f 3-)
+          echo "clean branch name = $branchname"
+          echo "extract commit short hash : $(git rev-parse --short HEAD)"
+          declare commithash=$(git rev-parse --short HEAD)
+          echo "extract build timestamp"
+          declare buildtimestamp=$(date +"%a %b %d %H:%M:%S %Y")
+          echo "buildtimestamp = $buildtimestamp"
+          declare -i buildEpoch=$(date "+%s")
+
+          declare fulltag=$(git describe --tag $(git rev-parse --verify refs/remotes/origin/main))
+          echo "fulltag = [$fulltag]"
+          declare versiontag=$(echo $fulltag | cut -d'-' -f1)
+          echo "extract SemVer numbers from version tag [$versiontag]"
+          declare -i lastmajordigit=$(echo $versiontag | cut -c 2- | cut -d'.' -f1)
+          echo "lastmajordigit = $lastmajordigit"
+          declare -i lastminordigit=$(echo $versiontag | cut -c 2- | cut -d'.' -f2)
+          echo "lastminordigit = $lastminordigit"
+          declare lastversion="v$lastmajordigit.$lastminordigit"
+          echo "output variables to GitHub Actions"
+          echo "branchname=$branchname" >> $GITHUB_OUTPUT
+          echo "lastmajordigit=$lastmajordigit" >> $GITHUB_OUTPUT
+          echo "lastminordigit=$lastminordigit" >> $GITHUB_OUTPUT
+          echo "commithash=$commithash" >> $GITHUB_OUTPUT
+          echo "buildtimestamp=$buildtimestamp" >> $GITHUB_OUTPUT
+          echo "buildEpoch=$buildEpoch" >> $GITHUB_OUTPUT
+          echo "lastversion=$lastversion" >> $GITHUB_OUTPUT
+
+      - name: Determine which version to build
+        id: selectversion
+        run: |
+          echo "Triggered from Branch : ${{ steps.versioninfo.outputs.branchname }}"
+          echo "Commit hash           : ${{ steps.versioninfo.outputs.commithash }}"
+          echo "Last version          : ${{ steps.versioninfo.outputs.lastversion }}"
+          echo "  Major               : ${{ steps.versioninfo.outputs.lastmajordigit }}"
+          echo "  Minor               : ${{ steps.versioninfo.outputs.lastminordigit }}"
+          if [ "${{ steps.versioninfo.outputs.branchname }}" == "main" ]; then
+            echo "Triggered from merge on main branch with commit title : ${{ github.event.head_commit.message }}"
+            if [[ "${{ github.event.head_commit.message }}" == *"major"* ]]; then
+              echo "Incrementing Major versionDigit"
+              declare -i nextmajordigit=${{ steps.versioninfo.outputs.lastmajordigit }}+1
+              declare -i nextminordigit=0
+              declare buildversion="v$nextmajordigit.$nextminordigit"
+              declare buildversionfilename=$(echo "${buildversion//./_}")
+            else
+              echo "Incrementing Minor versionDigit"
+              declare -i nextmajordigit=${{ steps.versioninfo.outputs.lastmajordigit }}
+              declare -i nextminordigit=${{ steps.versioninfo.outputs.lastminordigit }}+1
+              declare buildversion="v$nextmajordigit.$nextminordigit"
+              declare buildversionfilename=$(echo "${buildversion//./_}")
+            fi
+          else
+            echo "Not on main branch -> development version"
+            declare -i nextmajordigit=${{ steps.versioninfo.outputs.lastmajordigit }}
+            declare -i nextminordigit=${{ steps.versioninfo.outputs.lastminordigit }}
+            declare buildversion="v$nextmajordigit.$nextminordigit-${{ steps.versioninfo.outputs.commithash }}"
+            declare buildversionfilename=$(echo "${buildversion//./_}")
+          fi
+          echo "Building Version : $buildversion"
+          echo "  Major          : $nextmajordigit"
+          echo "  Minor          : $nextminordigit"
+          echo "Filename         : $buildversionfilename"
+          echo "output variables to GitHub Actions"
+          echo "nextmajordigit=$nextmajordigit" >> $GITHUB_OUTPUT
+          echo "nextminordigit=$nextminordigit" >> $GITHUB_OUTPUT
+          echo "buildversion=$buildversion" >> $GITHUB_OUTPUT
+          echo "buildversionfilename=$buildversionfilename" >> $GITHUB_OUTPUT
+  
+      - name: Show Build info
+        id: showbuildinfo
+        run: |
+          echo "Build Version   : ${{ steps.selectversion.outputs.buildversion }}"
+          echo "  Major         : ${{ steps.selectversion.outputs.nextmajordigit }}"
+          echo "  Minor         : ${{ steps.selectversion.outputs.nextminordigit }}"
+          echo "Build Filename  : ${{ steps.selectversion.outputs.buildversionfilename }}.bin"
+          echo "Build Timestamp : ${{ steps.versioninfo.outputs.buildtimestamp }}"
+          echo "Build Epoch     : ${{ steps.versioninfo.outputs.buildEpoch }}"
 
       - name: run KiBOT export
         uses: INTI-CMNB/KiBot@v2_k8

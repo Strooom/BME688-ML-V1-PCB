@@ -4,7 +4,7 @@ kibot:
   version: 1
 
 import:
-  - .github/kibot/version.yaml
+  - version.yaml
 
 preflight:
   check_zone_fills: true

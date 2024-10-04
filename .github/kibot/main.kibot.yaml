@@ -31,6 +31,13 @@ outputs:
     dir: 'bom'
     category: 'bom'
 
+  - name: 'CSV export'
+    type: bom
+    dir: 'bom'
+    category: 'bom'
+    options:
+      csv:
+
 # PCB outputs
   - name: 'print_front'
     dir: 'pcb'
@@ -68,7 +75,7 @@ outputs:
     type : step
     dir: 'pcb'
 
-  - name: 'renders'
+  - name: 'render front'
     type: blender_export
     dir: 'pcb'
     options:
@@ -80,11 +87,12 @@ outputs:
         transparent_background: true
         samples: 20
       point_of_view:
-        rotate_x: 20
-#        rotate_z: -20
+        - rotate_x: 20
+          rotate_y: 0
+        - rotate_x: 20
+          rotate_y: 180
       fixed_auto_camera: false
       auto_camera_z_axis_factor: 1.5
       default_file_id: '_%03d'
       outputs:
         - type: render
-

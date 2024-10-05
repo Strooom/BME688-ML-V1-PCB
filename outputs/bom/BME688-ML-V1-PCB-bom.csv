@@ -1,0 +1,27 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,GPN,manufacturerName,manufacturerPartNumber,digikeyPartNumber,mouserPartNumber,octopartUrl,manufacturer,supplier1Name,supplier1PartNumber,supplier1PartURL,supplier2Name,supplier2PartNumber,supplier2PartURL,MPN,remark
+1,4u7,C,C4 C5,C0603C475K8PAC7411,C_0603_nominal,2, ,https://www.mouser.be/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf,GPC0603475,Yageo - Kemet,C0603C475K8PAC7411,399-C0603C475K8PAC7411CT-ND,80-C0603C475K8PACLR,https://octopart.com/c0603c475k8pac7411-kemet-75146718?r=,,,,,,,,,
+2,100nF,C,C1 C2 C3 C6 C7 C8,KGM15AR71C104KT,C_0603_nominal,6, ,https://www.mouser.be/datasheet/2/40/KGM_X7R-3223212.pdf,GPC0603104,KYOCERA AVX,KGM15AR71C104KT,478-KGM15AR71C104KTCT-ND,581-KGM15AR71C104KT,https://octopart.com/kgm15ar71c104kt-avx-136559929?r=sp,,,,,,,,,
+3,micro-SD card slot,microSdCard,CONN3,MSD-1-A,MSD-1-A,1, ,https://www.mouser.be/datasheet/2/670/msd_1_a-3367597.pdf,,CUI Devices,MSD-1-A,,179-MSD-1-A,https://octopart.com/msd-1-a-same+sky-145369555?r=sp,,,,,,,,,
+4,Qwiic,Qwiic connector,CONN1 CONN2,SM04B-SRSS-TB,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,2, ,https://www.mouser.be/datasheet/2/813/eSH-2487316.pdf,,Sparkfun - JST,SM04B-SRSS-TB(LF)(DN)(P),,306-SM04BSRSSTBLFDNP,https://octopart.com/sm04b-srss-tb%28lf%29%28dn%29%28p%29-jst-154671066?r=sp,,,,,,,,,
+5,Debug-SWD,Conn_01x06_Socket,CONN5,notApplicable,DebugConnector_1x06_P2.54mm,1, ,notApplicable,,notApplicable,notApplicable,notApplicable,notApplicable,notApplicable,,,,,,,,,
+6,4K7,R,R1 R2 R3 R4 R5 R6 R7 R8 R9,CR0603-FX-4701ELF,R_0603_nominal,9, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,GPR06034K7,Bourns,CR0603-FX-4701ELF,CR0603-FX-4701ELFCT-ND,652-CR0603FX-4701ELF,https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp,,,,,,,,,
+7,Application buttonswitch,Switch_434133025816,SW1,434133025816,Wurth-434133025816,1, ,https://www.we-online.com/components/products/datasheet/434133025816.pdf,,Wurth Electronics,434133025816,732-13663-1-ND,710-434133025816,https://octopart.com/434133025816-wurth+elektronik-99472342?r=sp,,,,,,,,,
+8,"Air Quality Sensors MEMS gas, humidity, pressure and temperature sensor",BME688,U2 U3,BME688,BME688,2, ,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf,,Bosch Sensortec,BME688,828-BME688CT-ND,262-BME688,https://octopart.com/bme688-bosch+tools-116090840?r=sp,Bosch Sensortec,Mouser,262-BME680,https://www.mouser.be/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D,Digi-Key,828-1077-1-ND,https://www.digikey.be/nl/products/detail/bosch-sensortec/BME680/7401317,BME680,
+9,"STMicroelectronics Arm Cortex-M4 MCU, 128-256KB flash, 64KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, UFQFPN32",STM32L431K,U1,STM32L431KBU6TR,QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm,1, ,https://www.st.com/resource/en/datasheet/stm32l431kb.pdf,,ST,STM32L431KBU6TR,497-18831-1-ND,511-STM32L431KBU6TR,https://octopart.com/stm32l431kbu6tr-stmicroelectronics-89206856?r=sp,,,,,,,,,
+
+
+
+
+
+Project info:
+Schematic:,BME688-ML-V1-PCB
+Variant:,default
+Revision:,V1
+Date:,2024-09-18
+KiCad Version:,8.0.4+1
+Statistics:
+Component Groups:,9
+Component Count:,25
+Fitted Components:,25
+Number of PCBs:,1
+Total Components:,25

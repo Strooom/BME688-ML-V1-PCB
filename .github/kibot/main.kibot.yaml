@@ -37,35 +37,27 @@ outputs:
     category: 'bom'
 
 # PCB outputs
-  - name: 'print_front'
+  - name: 'print_pcb'
     dir: 'pcb'
     type: pcb_print
     options:
       scaling: 0
       autoscale_margin_x: 10
       autoscale_margin_y: 10
-      output: 'front.%x'
       format: 'PDF'
       plot_sheet_reference: false
       pages:
         - layers:
             - layer: F.Cu
-            - layer: F.Mask
-
-  - name: 'print_back'
-    dir: 'pcb'
-    type: pcb_print
-    options:
-      scaling: 0
-      autoscale_margin_x: 10
-      autoscale_margin_y: 10
-      output: 'back.%x'
-      format: 'PDF'
-      plot_sheet_reference: false
-      pages:
+              color: '#e23b51'
+          sort_layers: true
+        - layers:
+            - layer: F.Cu
+          monochrome: true
+          sort_layers: true
         - layers:
             - layer: B.Cu
-            - layer: B.Mask
+              color: '##3361b8'
           sort_layers: true
           mirror: true
 

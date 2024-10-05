@@ -4,4 +4,8 @@
 
 KiCAD design files for the BME688 Machine Learning PCB.
 
+## Front render
 ![Alt text](outputs/pcb/BME688-ML-V1-PCB-3D_blender_001.png)
+
+## Back render
+![Alt text](outputs/pcb/BME688-ML-V1-PCB-3D_blender_002.png)

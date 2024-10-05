@@ -49,7 +49,7 @@ outputs:
       pages:
         - layers:
             - layer: F.Cu
-              color: '#e23b51'
+              color: '#E23B51'
           sort_layers: true
         - layers:
             - layer: F.Cu
@@ -57,7 +57,7 @@ outputs:
           sort_layers: true
         - layers:
             - layer: B.Cu
-              color: '##3361b8'
+              color: '#3361B8'
           sort_layers: true
           mirror: true
 

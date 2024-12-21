@@ -6304,6 +6304,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SM04B-SRSS-TB"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2cde12e6-a772-4d93-b893-34e02ab3073e")
 		)
@@ -6478,6 +6487,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/msd-1-a-same+sky-145369555?r=sp"
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MSD-1-A"
 			(at 209.55 74.93 0)
 			(effects
 				(font
@@ -6691,6 +6709,15 @@
 			)
 		)
 		(property "GPN" "GPC0603475"
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C475K8PAC7411"
 			(at 99.06 54.61 0)
 			(effects
 				(font
@@ -6947,6 +6974,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "STM32L431KBU6TR"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "d0a4ff50-ab81-4c34-a0bd-d5c46a4ac43d")
 		)
@@ -7163,6 +7199,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CR0603-FX-4701ELF"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "941d741e-7cb5-4096-bc63-3f1fd2e35aee")
 		)
@@ -7278,6 +7323,15 @@
 			)
 		)
 		(property "GPN" "GPC0603104"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15AR71C104KT"
 			(at 109.22 54.61 0)
 			(effects
 				(font
@@ -7473,7 +7527,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BME680"
+		(property "MPN" "BME688"
 			(at 210.82 88.9 0)
 			(effects
 				(font
@@ -7642,6 +7696,15 @@
 			)
 		)
 		(property "GPN" "GPC0603104"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15AR71C104KT"
 			(at 119.38 54.61 0)
 			(effects
 				(font
@@ -8205,6 +8268,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "KGM15AR71C104KT"
+			(at 267.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a2a3694-6f97-47be-963a-251680dc413e")
 		)
@@ -8385,6 +8457,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
+			(at 189.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-FX-4701ELF"
 			(at 189.23 59.69 0)
 			(effects
 				(font
@@ -8640,6 +8721,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-FX-4701ELF"
 			(at 95.25 93.98 0)
 			(effects
 				(font
@@ -9144,6 +9234,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CR0603-FX-4701ELF"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5607c3fa-f9ab-4116-b14c-82308daed441")
 		)
@@ -9397,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BME680"
+		(property "MPN" "BME688"
 			(at 252.73 88.9 0)
 			(effects
 				(font
@@ -9574,6 +9673,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "KGM15AR71C104KT"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b716d885-684f-4ab4-99e2-dbe48b70a486")
 		)
@@ -9697,6 +9805,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C475K8PAC7411"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9aecd8fd-a4db-4002-8f8b-f297431757d3")
 		)
@@ -9806,6 +9923,15 @@
 		)
 		(property "digikeyPartNumber" ""
 			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM04B-SRSS-TB"
+			(at 100.33 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,6 +10066,15 @@
 			)
 		)
 		(property "GPN" "GPC0603104"
+			(at 226.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15AR71C104KT"
 			(at 226.06 138.43 0)
 			(effects
 				(font
@@ -10195,6 +10330,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-FX-4701ELF"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -10500,6 +10644,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CR0603-FX-4701ELF"
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9e2bc6a-23aa-45c8-b128-b6d33c47709d")
 		)
@@ -10615,6 +10768,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
+			(at 198.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-FX-4701ELF"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -10914,6 +11076,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/434133025816-wurth+elektronik-99472342?r=sp"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "434133025816"
 			(at 102.87 72.39 0)
 			(effects
 				(font
@@ -11226,6 +11397,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CR0603-FX-4701ELF"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c8bd7bb-1e69-43f5-9208-dd98616aa97a")
 		)
@@ -11349,6 +11529,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "KGM15AR71C104KT"
+			(at 223.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92c10c05-e6b2-4f99-9893-b6da8a8c7668")
 		)
@@ -11464,6 +11653,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-4701elf-bourns-3867100?r=sp"
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-FX-4701ELF"
 			(at 196.85 59.69 0)
 			(effects
 				(font

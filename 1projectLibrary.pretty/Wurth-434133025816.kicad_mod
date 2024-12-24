@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -2.75 -1.75)
-		(end 2.75 1.75)
+		(start -2.7 -1.75)
+		(end 2.7 1.75)
 		(stroke
 			(width 0.05)
 			(type default)

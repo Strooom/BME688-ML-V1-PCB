@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -87,29 +90,29 @@
 		(uuid "16751451-2e8a-431c-9d0a-95dad81db194")
 	)
 	(pad "1" smd roundrect
-		(at -2.075 -1.075)
-		(size 1.05 0.65)
+		(at -2 -1.075)
+		(size 1 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
 		(uuid "0de50645-264e-4432-90fb-8df78eb188c6")
 	)
 	(pad "2" smd roundrect
-		(at 2.075 -1.075)
-		(size 1.05 0.65)
+		(at 2 -1.075)
+		(size 1 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
 		(uuid "56463e70-3fea-4a8f-bec2-810351f0c679")
 	)
 	(pad "3" smd roundrect
-		(at -2.075 1.075)
-		(size 1.05 0.65)
+		(at -2 1.075)
+		(size 1 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
 		(uuid "66ecffaa-9bcd-465a-baaf-ebb7a2185b7a")
 	)
 	(pad "4" smd roundrect
-		(at 2.075 1.075)
-		(size 1.05 0.65)
+		(at 2 1.075)
+		(size 1 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
 		(uuid "35e13bef-7560-414f-bdc5-7afa3489c152")
